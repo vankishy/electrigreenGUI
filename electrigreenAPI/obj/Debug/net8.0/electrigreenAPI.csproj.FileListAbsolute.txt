@@ -31,3 +31,4 @@ C:\Users\SWIFT\Documents\electrigreen-KPL\electrigreenKPL\electrigreenAPI\obj\De
 C:\Users\SWIFT\Documents\electrigreen-KPL\electrigreenKPL\electrigreenAPI\obj\Debug\net8.0\electrigreenAPI.pdb
 C:\Users\SWIFT\Documents\electrigreen-KPL\electrigreenKPL\electrigreenAPI\obj\Debug\net8.0\electrigreenAPI.genruntimeconfig.cache
 C:\Users\SWIFT\Documents\electrigreen-KPL\electrigreenKPL\electrigreenAPI\obj\Debug\net8.0\ref\electrigreenAPI.dll
+C:\Users\SWIFT\Documents\electrigreen-KPL\electrigreenKPL\electrigreenAPI\bin\Debug\net8.0\accRecord.json
