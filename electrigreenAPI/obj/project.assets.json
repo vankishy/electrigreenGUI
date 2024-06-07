@@ -428,19 +428,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\RIZKY KUSUMA\\.nuget\\packages\\": {}
+    "C:\\Users\\SWIFT\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\TubesKPL\\electrigreenGUI\\electrigreenAPI\\electrigreenAPI.csproj",
+      "projectUniqueName": "C:\\Users\\SWIFT\\Documents\\electrigreen-KPL\\electrigreenKPL\\electrigreenAPI\\electrigreenAPI.csproj",
       "projectName": "electrigreenAPI",
-      "projectPath": "D:\\TubesKPL\\electrigreenGUI\\electrigreenAPI\\electrigreenAPI.csproj",
-      "packagesPath": "C:\\Users\\RIZKY KUSUMA\\.nuget\\packages\\",
-      "outputPath": "D:\\TubesKPL\\electrigreenGUI\\electrigreenAPI\\obj\\",
+      "projectPath": "C:\\Users\\SWIFT\\Documents\\electrigreen-KPL\\electrigreenKPL\\electrigreenAPI\\electrigreenAPI.csproj",
+      "packagesPath": "C:\\Users\\SWIFT\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\SWIFT\\Documents\\electrigreen-KPL\\electrigreenKPL\\electrigreenAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\RIZKY KUSUMA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\SWIFT\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -448,6 +448,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -495,7 +496,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
