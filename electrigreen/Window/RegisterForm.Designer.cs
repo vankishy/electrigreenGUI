@@ -138,6 +138,7 @@
             loginLinkBtn.Size = new Size(46, 20);
             loginLinkBtn.TabIndex = 10;
             loginLinkBtn.Text = "Login";
+            loginLinkBtn.Click += loginLinkBtn_Click;
             // 
             // label6
             // 
