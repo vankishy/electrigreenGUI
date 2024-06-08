@@ -1,5 +1,6 @@
 ﻿using electrigreen.Core;
 using electrigreen.Models;
+using LoginPage;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -55,17 +56,28 @@ namespace electrigreen.Frame
             else if (password != passConfirm)
             {
                 label6.Text = "Password salah! Coba lagi.";
-            } else
+            }
+            else
             {
                 User createUser = new User { Nama = nama, Email = email, Password = password };
                 Register register = new Register();
                 register.registerAction(createUser);
+                this.Visible = false;
+                LoginForm loginForm = new LoginForm();
+                loginForm.Show();
             }
 
             Contract.Requires(!string.IsNullOrWhiteSpace(nama), "Nama tidak boleh kosong");
             Contract.Requires(!string.IsNullOrWhiteSpace(email), "Email tidak boleh kosong");
             Contract.Requires(!string.IsNullOrWhiteSpace(password), "Password tidak boleh kosong");
-            Contract.Requires(!string.IsNullOrWhiteSpace(passConfirm), "Konfirmasi Password tidak boleh kosong");      
+            Contract.Requires(!string.IsNullOrWhiteSpace(passConfirm), "Konfirmasi Password tidak boleh kosong");
+        }
+
+        private void loginLinkBtn_Click(object sender, EventArgs e)
+        {
+            this.Visible = false;
+            LoginForm loginForm = new LoginForm();
+            loginForm.Show();
         }
     }
 }

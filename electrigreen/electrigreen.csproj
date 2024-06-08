@@ -9,13 +9,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Assets\**" />
     <Compile Remove="Libraries\**" />
+    <EmbeddedResource Remove="Assets\**" />
     <EmbeddedResource Remove="Libraries\**" />
+    <None Remove="Assets\**" />
     <None Remove="Libraries\**" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Assets\" />
   </ItemGroup>
 
 </Project>
