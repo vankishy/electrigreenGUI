@@ -121,7 +121,7 @@
             label4.Size = new Size(63, 20);
             label4.TabIndex = 8;
             label4.Text = "Register";
-            label4.Click += this.label4_Click;
+            label4.Click += label4_Click;
             // 
             // LoginForm
             // 
@@ -137,8 +137,12 @@
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            MaximizeBox = false;
             Name = "LoginForm";
-            Text = "Form1";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Login";
+            Load += LoginForm_Load;
             ResumeLayout(false);
             PerformLayout();
         }

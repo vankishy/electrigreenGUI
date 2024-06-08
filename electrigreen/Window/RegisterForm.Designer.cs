@@ -36,10 +36,10 @@
             label2 = new Label();
             label3 = new Label();
             label4 = new Label();
-            registerBtn = new Button();
             label5 = new Label();
             loginLinkBtn = new Label();
             label6 = new Label();
+            registerBtn = new ComponentControls.AuthButton();
             SuspendLayout();
             // 
             // nameBox
@@ -63,6 +63,7 @@
             passBox.Location = new Point(50, 389);
             passBox.Margin = new Padding(3, 4, 3, 4);
             passBox.Name = "passBox";
+            passBox.PasswordChar = '*';
             passBox.Size = new Size(491, 27);
             passBox.TabIndex = 2;
             // 
@@ -71,6 +72,7 @@
             passConfirmBox.Location = new Point(52, 472);
             passConfirmBox.Margin = new Padding(3, 4, 3, 4);
             passConfirmBox.Name = "passConfirmBox";
+            passConfirmBox.PasswordChar = '*';
             passConfirmBox.Size = new Size(491, 27);
             passConfirmBox.TabIndex = 3;
             // 
@@ -110,17 +112,6 @@
             label4.TabIndex = 7;
             label4.Text = "Konfirmasi Password";
             // 
-            // registerBtn
-            // 
-            registerBtn.Location = new Point(50, 575);
-            registerBtn.Margin = new Padding(3, 4, 3, 4);
-            registerBtn.Name = "registerBtn";
-            registerBtn.Size = new Size(491, 52);
-            registerBtn.TabIndex = 8;
-            registerBtn.Text = "Register";
-            registerBtn.UseVisualStyleBackColor = true;
-            registerBtn.Click += registerBtn_Click;
-            // 
             // label5
             // 
             label5.AutoSize = true;
@@ -143,21 +134,39 @@
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(52, 516);
+            label6.BackColor = Color.Transparent;
+            label6.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label6.ForeColor = Color.Tomato;
+            label6.Location = new Point(50, 514);
             label6.Name = "label6";
-            label6.Size = new Size(50, 20);
+            label6.Size = new Size(51, 20);
             label6.TabIndex = 11;
             label6.Text = "label6";
+            // 
+            // registerBtn
+            // 
+            registerBtn.BackColor = Color.FromArgb(114, 199, 72);
+            registerBtn.FlatAppearance.BorderSize = 0;
+            registerBtn.FlatStyle = FlatStyle.Flat;
+            registerBtn.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            registerBtn.ForeColor = Color.White;
+            registerBtn.Location = new Point(52, 567);
+            registerBtn.Name = "registerBtn";
+            registerBtn.Size = new Size(489, 50);
+            registerBtn.TabIndex = 12;
+            registerBtn.Text = "Register";
+            registerBtn.UseVisualStyleBackColor = false;
+            registerBtn.Click += registerBtn_Click;
             // 
             // RegisterForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(594, 710);
+            Controls.Add(registerBtn);
             Controls.Add(label6);
             Controls.Add(loginLinkBtn);
             Controls.Add(label5);
-            Controls.Add(registerBtn);
             Controls.Add(label4);
             Controls.Add(label3);
             Controls.Add(label2);
@@ -166,9 +175,12 @@
             Controls.Add(passBox);
             Controls.Add(emailBox);
             Controls.Add(nameBox);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Margin = new Padding(3, 4, 3, 4);
+            MaximizeBox = false;
             Name = "RegisterForm";
-            Text = "RegisterForm";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Register";
             ResumeLayout(false);
             PerformLayout();
         }
@@ -183,9 +195,10 @@
         private Label label2;
         private Label label3;
         private Label label4;
-        private Button registerBtn;
         private Label label5;
         private Label loginLinkBtn;
         private Label label6;
+        private ComponentControls.AuthButton registerBtn1;
+        private ComponentControls.AuthButton registerBtn;
     }
 }

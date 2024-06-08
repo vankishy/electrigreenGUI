@@ -38,6 +38,13 @@ namespace electrigreen.Frame
             return check.IsMatch(email);
         }
 
+        private void loginLinkBtn_Click(object sender, EventArgs e)
+        {
+            this.Visible = false;
+            LoginForm loginForm = new LoginForm();
+            loginForm.Show();
+        }
+
         private void registerBtn_Click(object sender, EventArgs e)
         {
             string nama = nameBox.Text;
@@ -47,15 +54,34 @@ namespace electrigreen.Frame
 
             if (!isValidName(nama))
             {
-                label6.Text = "Nama hanya terdiri dari huruf";
+                if (string.IsNullOrWhiteSpace(nama))
+                {
+                    label6.Text = "Nama tidak boleh kosong!";
+                }
+                else
+                    label6.Text = "Nama hanya terdiri dari huruf";
             }
             else if (isValidName(email))
             {
-                label6.Text = "Format Email tidak valid";
+                if (string.IsNullOrWhiteSpace(email))
+                {
+                    label6.Text = "Email tidak boleh kosong!";
+                }
+                else
+                    label6.Text = "Format Email tidak valid";
             }
             else if (password != passConfirm)
             {
-                label6.Text = "Password salah! Coba lagi.";
+                if (string.IsNullOrWhiteSpace(password))
+                {
+                    label6.Text = "Password tidak boleh kosong!";
+                }
+                else
+                    label6.Text = "Periksa kembali password anda";
+            }
+            else if (string.IsNullOrWhiteSpace(passConfirm))
+            {
+                label6.Text = "Konfirmasi Password tidak boleh kosong!";
             }
             else
             {
@@ -66,18 +92,6 @@ namespace electrigreen.Frame
                 LoginForm loginForm = new LoginForm();
                 loginForm.Show();
             }
-
-            Contract.Requires(!string.IsNullOrWhiteSpace(nama), "Nama tidak boleh kosong");
-            Contract.Requires(!string.IsNullOrWhiteSpace(email), "Email tidak boleh kosong");
-            Contract.Requires(!string.IsNullOrWhiteSpace(password), "Password tidak boleh kosong");
-            Contract.Requires(!string.IsNullOrWhiteSpace(passConfirm), "Konfirmasi Password tidak boleh kosong");
-        }
-
-        private void loginLinkBtn_Click(object sender, EventArgs e)
-        {
-            this.Visible = false;
-            LoginForm loginForm = new LoginForm();
-            loginForm.Show();
         }
     }
 }

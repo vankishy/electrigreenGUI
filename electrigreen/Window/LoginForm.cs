@@ -13,7 +13,7 @@ namespace LoginPage
             InitializeComponent();
         }
 
-        
+
 
         private void label4_Click(object sender, EventArgs e)
         {
@@ -41,7 +41,7 @@ namespace LoginPage
                     else
                     {
                         MessageBox.Show("Failed to Login, Email or Password is incorrect.");
-                     
+
                     }
                 }
                 catch (Exception ex)
@@ -50,7 +50,7 @@ namespace LoginPage
                 }
             }
 
-            
+
         }
         public async Task<bool> AuthenticateWithAPI(string email, string password)
         {
@@ -60,7 +60,7 @@ namespace LoginPage
 
                 var loginUser = new LoginModel { Email = email, Password = password };
 
-                HttpResponseMessage resMessage = await httpClient.PostAsJsonAsync("api/Register/login", loginUser);
+                HttpResponseMessage resMessage = await httpClient.PostAsJsonAsync("api/Auth/Login", loginUser);
 
                 if (resMessage.IsSuccessStatusCode)
                 {
@@ -77,5 +77,9 @@ namespace LoginPage
             }
         }
 
+        private void LoginForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
