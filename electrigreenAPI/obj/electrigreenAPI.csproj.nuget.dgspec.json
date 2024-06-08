@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C#\\electrigreenGUI\\electrigreenAPI\\electrigreenAPI.csproj": {}
+    "C:\\Users\\RAFLI\\Downloads\\Percodingan\\C#\\electrigreenGUI\\electrigreenAPI\\electrigreenAPI.csproj": {}
   },
   "projects": {
-    "D:\\C#\\electrigreenGUI\\electrigreenAPI\\electrigreenAPI.csproj": {
+    "C:\\Users\\RAFLI\\Downloads\\Percodingan\\C#\\electrigreenGUI\\electrigreenAPI\\electrigreenAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#\\electrigreenGUI\\electrigreenAPI\\electrigreenAPI.csproj",
+        "projectUniqueName": "C:\\Users\\RAFLI\\Downloads\\Percodingan\\C#\\electrigreenGUI\\electrigreenAPI\\electrigreenAPI.csproj",
         "projectName": "electrigreenAPI",
-        "projectPath": "D:\\C#\\electrigreenGUI\\electrigreenAPI\\electrigreenAPI.csproj",
-        "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-        "outputPath": "D:\\C#\\electrigreenGUI\\electrigreenAPI\\obj\\",
+        "projectPath": "C:\\Users\\RAFLI\\Downloads\\Percodingan\\C#\\electrigreenGUI\\electrigreenAPI\\electrigreenAPI.csproj",
+        "packagesPath": "C:\\Users\\RAFLI\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\RAFLI\\Downloads\\Percodingan\\C#\\electrigreenGUI\\electrigreenAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\RAFLI\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
