@@ -1,6 +1,7 @@
-
+using electrigreen.Core;
 using electrigreen.Frame;
 using electrigreen.Models;
+using System.Diagnostics;
 using System.Net.Http.Json;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 
@@ -24,61 +25,27 @@ namespace LoginPage
 
         private async void button1_ClickAsync(object sender, EventArgs e)
         {
-            using (HttpClient httpClient = new HttpClient())
+            string email = textBox1.Text;
+            string password = textBox2.Text;
+
+            try
             {
+                AuthenticationMethod authen = new AuthenticationMethod();
+                bool isAuthenticated = await authen.ValidateUserAsync(email, password);
 
-                httpClient.BaseAddress = new Uri("http://localhost:5263");
-
-                try
+                if (isAuthenticated)
                 {
-
-                    var isAuthenticated = await AuthenticateWithAPI(textBox1.Text, textBox2.Text);
-
-                    if (isAuthenticated)
-                    {
-                        MessageBox.Show("Email and Password are Correct!");
-                    }
-                    else
-                    {
-                        MessageBox.Show("Failed to Login, Email or Password is incorrect.");
-
-                    }
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show("An error occurred: " + ex.Message);
-                }
-            }
-
-
-        }
-        public async Task<bool> AuthenticateWithAPI(string email, string password)
-        {
-            using (HttpClient httpClient = new HttpClient())
-            {
-                httpClient.BaseAddress = new Uri("http://localhost:5263");
-
-                var loginUser = new LoginModel { Email = email, Password = password };
-
-                HttpResponseMessage resMessage = await httpClient.PostAsJsonAsync("api/Auth/Login", loginUser);
-
-                if (resMessage.IsSuccessStatusCode)
-                {
-                    return true;
-                }
-                else if (resMessage.StatusCode == System.Net.HttpStatusCode.BadRequest)
-                {
-                    return false;
+                    MessageBox.Show("Email and Password are Correct!");
                 }
                 else
                 {
-                    return false;
+                    MessageBox.Show("Failed to Login, Email or Password is incorrect.");
                 }
             }
-        }
-
-        private void LoginForm_Load(object sender, EventArgs e)
-        {
+            catch (Exception ex)
+            {
+                MessageBox.Show("An error occurred: " + ex.Message);
+            }
 
         }
     }

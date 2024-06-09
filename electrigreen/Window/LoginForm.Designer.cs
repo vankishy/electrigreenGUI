@@ -144,7 +144,6 @@
             Name = "LoginForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Electrigreen";
-            Load += LoginForm_Load;
             ResumeLayout(false);
             PerformLayout();
         }
