@@ -1,5 +1,6 @@
 ﻿using electrigreen.Core;
 using electrigreen.Models;
+using LoginPage;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -37,35 +38,69 @@ namespace electrigreen.Frame
             return check.IsMatch(email);
         }
 
-        private void registerBtn_Click(object sender, EventArgs e)
+        private void loginLinkBtn_Click(object sender, EventArgs e)
         {
-            string nama = nameBox.Text;
-            string email = emailBox.Text;
-            string password = passBox.Text;
-            string passConfirm = passConfirmBox.Text;
+            this.Visible = false;
+            LoginForm loginForm = new LoginForm();
+            loginForm.Show();
+        }
+
+        private void authButton1_Click(object sender, EventArgs e)
+        {
+            string nama = authTextBox1.Text;
+            string email = authTextBox2.Text;
+            string password = authTextBox3.Text;
+            string passConfirm = authTextBox4.Text;
 
             if (!isValidName(nama))
             {
-                label6.Text = "Nama hanya terdiri dari huruf";
+                if (string.IsNullOrWhiteSpace(nama))
+                {
+                    label6.Text = "Nama tidak boleh kosong!";
+                    authTextBox1.BorderColor = Color.Red;
+                }
+                else
+                    label6.Text = "Nama hanya terdiri dari huruf";
+                authTextBox1.BorderColor = Color.Red;
             }
             else if (isValidName(email))
             {
-                label6.Text = "Format Email tidak valid";
+                if (string.IsNullOrWhiteSpace(email))
+                {
+                    label6.Text = "Email tidak boleh kosong!";
+                    authTextBox2.BorderColor = Color.Red;
+                }
+                else
+                    label6.Text = "Format Email tidak valid";
+                authTextBox2.BorderColor = Color.Red;
             }
             else if (password != passConfirm)
             {
-                label6.Text = "Password salah! Coba lagi.";
-            } else
+                if (string.IsNullOrWhiteSpace(password))
+                {
+                    label6.Text = "Password tidak boleh kosong!";
+                    authTextBox3.BorderColor = Color.Red;
+                }
+                else
+                    label6.Text = "Periksa kembali password anda";
+                    authTextBox3.BorderColor = Color.Red;
+                    authTextBox4.BorderColor = Color.Red;
+            }
+            else if (string.IsNullOrWhiteSpace(passConfirm))
             {
-                User createUser = new User { Nama = nama, Email = email, Password = password };
+                label6.Text = "Konfirmasi Password tidak boleh kosong!";
+                authTextBox4.BorderColor = Color.Red;
+            }
+            else
+            {
+                string passHash = BCrypt.Net.BCrypt.HashPassword(password, 13); // Hashing password
+                User createUser = new User { Nama = nama, Email = email, Password = passHash };
                 Register register = new Register();
                 register.registerAction(createUser);
+                this.Visible = false;
+                LoginForm loginForm = new LoginForm();
+                loginForm.Show();
             }
-
-            Contract.Requires(!string.IsNullOrWhiteSpace(nama), "Nama tidak boleh kosong");
-            Contract.Requires(!string.IsNullOrWhiteSpace(email), "Email tidak boleh kosong");
-            Contract.Requires(!string.IsNullOrWhiteSpace(password), "Password tidak boleh kosong");
-            Contract.Requires(!string.IsNullOrWhiteSpace(passConfirm), "Konfirmasi Password tidak boleh kosong");      
         }
     }
 }
