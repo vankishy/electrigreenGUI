@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RegisterForm));
             label5 = new Label();
             loginLinkBtn = new Label();
             label6 = new Label();
@@ -36,6 +37,8 @@
             authTextBox2 = new ComponentControls.AuthTextBox();
             authTextBox3 = new ComponentControls.AuthTextBox();
             authTextBox4 = new ComponentControls.AuthTextBox();
+            pictureBox1 = new PictureBox();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // label5
@@ -50,9 +53,12 @@
             // loginLinkBtn
             // 
             loginLinkBtn.AutoSize = true;
-            loginLinkBtn.Location = new Point(336, 657);
+            loginLinkBtn.BackColor = SystemColors.Control;
+            loginLinkBtn.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            loginLinkBtn.ForeColor = Color.FromArgb(94, 143, 51);
+            loginLinkBtn.Location = new Point(334, 657);
             loginLinkBtn.Name = "loginLinkBtn";
-            loginLinkBtn.Size = new Size(46, 20);
+            loginLinkBtn.Size = new Size(48, 20);
             loginLinkBtn.TabIndex = 10;
             loginLinkBtn.Text = "Login";
             loginLinkBtn.Click += loginLinkBtn_Click;
@@ -160,11 +166,22 @@
             authTextBox4.WaterMark = "Konfirmasi Password";
             authTextBox4.WatermarkColor = Color.Gray;
             // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = Properties.Resources.Logo;
+            pictureBox1.Location = new Point(161, 44);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(270, 62);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox1.TabIndex = 17;
+            pictureBox1.TabStop = false;
+            // 
             // RegisterForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(594, 710);
+            Controls.Add(pictureBox1);
             Controls.Add(authTextBox4);
             Controls.Add(authTextBox3);
             Controls.Add(authTextBox2);
@@ -174,11 +191,13 @@
             Controls.Add(loginLinkBtn);
             Controls.Add(label5);
             FormBorderStyle = FormBorderStyle.FixedSingle;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Margin = new Padding(3, 4, 3, 4);
             MaximizeBox = false;
             Name = "RegisterForm";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Register";
+            Text = "Electrigreen";
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -198,5 +217,6 @@
         private ComponentControls.AuthTextBox authTextBox2;
         private ComponentControls.AuthTextBox authTextBox3;
         private ComponentControls.AuthTextBox authTextBox4;
+        private PictureBox pictureBox1;
     }
 }

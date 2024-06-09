@@ -93,7 +93,8 @@ namespace electrigreen.Frame
             }
             else
             {
-                User createUser = new User { Nama = nama, Email = email, Password = password };
+                string passHash = BCrypt.Net.BCrypt.HashPassword(password, 13); // Hashing password
+                User createUser = new User { Nama = nama, Email = email, Password = passHash };
                 Register register = new Register();
                 register.registerAction(createUser);
                 this.Visible = false;
