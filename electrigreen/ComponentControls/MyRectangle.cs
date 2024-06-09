@@ -28,6 +28,7 @@ namespace electrigreen.ComponentControls
                 graphicsPath.AddArc(new RectangleF(width-(2F * radius)-1F,x,2F * radius, 2F * radius), 270F, 90F);
                 graphicsPath.AddArc(new RectangleF(width-(2F * radius)-1F, height-(2F * radius)-1F, 2F * radius, 2F * radius), 0F, 90F);
                 graphicsPath.AddArc(new RectangleF(x, height-(2F * radius)-1F, 2F * radius, 2F * radius),90F, 90F);
+                graphicsPath.CloseAllFigures();
             }
         }
 

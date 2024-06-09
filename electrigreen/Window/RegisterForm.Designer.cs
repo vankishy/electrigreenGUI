@@ -28,89 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
-            nameBox = new TextBox();
-            emailBox = new TextBox();
-            passBox = new TextBox();
-            passConfirmBox = new TextBox();
-            label1 = new Label();
-            label2 = new Label();
-            label3 = new Label();
-            label4 = new Label();
             label5 = new Label();
             loginLinkBtn = new Label();
             label6 = new Label();
-            registerBtn = new ComponentControls.AuthButton();
+            authTextBox1 = new ComponentControls.AuthTextBox();
+            authButton1 = new ComponentControls.AuthButton();
+            authTextBox2 = new ComponentControls.AuthTextBox();
+            authTextBox3 = new ComponentControls.AuthTextBox();
+            authTextBox4 = new ComponentControls.AuthTextBox();
             SuspendLayout();
-            // 
-            // nameBox
-            // 
-            nameBox.Location = new Point(50, 241);
-            nameBox.Margin = new Padding(3, 4, 3, 4);
-            nameBox.Name = "nameBox";
-            nameBox.Size = new Size(491, 27);
-            nameBox.TabIndex = 0;
-            // 
-            // emailBox
-            // 
-            emailBox.Location = new Point(50, 313);
-            emailBox.Margin = new Padding(3, 4, 3, 4);
-            emailBox.Name = "emailBox";
-            emailBox.Size = new Size(491, 27);
-            emailBox.TabIndex = 1;
-            // 
-            // passBox
-            // 
-            passBox.Location = new Point(50, 389);
-            passBox.Margin = new Padding(3, 4, 3, 4);
-            passBox.Name = "passBox";
-            passBox.PasswordChar = '*';
-            passBox.Size = new Size(491, 27);
-            passBox.TabIndex = 2;
-            // 
-            // passConfirmBox
-            // 
-            passConfirmBox.Location = new Point(52, 472);
-            passConfirmBox.Margin = new Padding(3, 4, 3, 4);
-            passConfirmBox.Name = "passConfirmBox";
-            passConfirmBox.PasswordChar = '*';
-            passConfirmBox.Size = new Size(491, 27);
-            passConfirmBox.TabIndex = 3;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Location = new Point(47, 208);
-            label1.Name = "label1";
-            label1.Size = new Size(49, 20);
-            label1.TabIndex = 4;
-            label1.Text = "Nama";
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Location = new Point(47, 282);
-            label2.Name = "label2";
-            label2.Size = new Size(46, 20);
-            label2.TabIndex = 5;
-            label2.Text = "Email";
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Location = new Point(47, 358);
-            label3.Name = "label3";
-            label3.Size = new Size(70, 20);
-            label3.TabIndex = 6;
-            label3.Text = "Password";
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Location = new Point(47, 440);
-            label4.Name = "label4";
-            label4.Size = new Size(145, 20);
-            label4.TabIndex = 7;
-            label4.Text = "Konfirmasi Password";
             // 
             // label5
             // 
@@ -143,38 +69,110 @@
             label6.TabIndex = 11;
             label6.Text = "label6";
             // 
-            // registerBtn
+            // authTextBox1
             // 
-            registerBtn.BackColor = Color.FromArgb(114, 199, 72);
-            registerBtn.FlatAppearance.BorderSize = 0;
-            registerBtn.FlatStyle = FlatStyle.Flat;
-            registerBtn.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            registerBtn.ForeColor = Color.White;
-            registerBtn.Location = new Point(52, 567);
-            registerBtn.Name = "registerBtn";
-            registerBtn.Size = new Size(489, 50);
-            registerBtn.TabIndex = 12;
-            registerBtn.Text = "Register";
-            registerBtn.UseVisualStyleBackColor = false;
-            registerBtn.Click += registerBtn_Click;
+            authTextBox1.BackColor = Color.Transparent;
+            authTextBox1.BackColor1 = SystemColors.Control;
+            authTextBox1.BorderColor = Color.Black;
+            authTextBox1.BorderSize = 1.53D;
+            authTextBox1.Cursor = Cursors.IBeam;
+            authTextBox1.Font = new Font("Segoe UI", 9F);
+            authTextBox1.Location = new Point(50, 192);
+            authTextBox1.Name = "authTextBox1";
+            authTextBox1.PasswordChar = '\0';
+            authTextBox1.Radius = 20;
+            authTextBox1.Size = new Size(490, 50);
+            authTextBox1.TabIndex = 12;
+            authTextBox1.Text = "Nama";
+            authTextBox1.UseSystemPasswordChar = false;
+            authTextBox1.WaterMark = "Nama";
+            authTextBox1.WatermarkColor = Color.Gray;
+            // 
+            // authButton1
+            // 
+            authButton1.BackColor = Color.FromArgb(114, 199, 72);
+            authButton1.FlatAppearance.BorderSize = 0;
+            authButton1.FlatStyle = FlatStyle.Flat;
+            authButton1.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            authButton1.ForeColor = Color.White;
+            authButton1.Location = new Point(50, 574);
+            authButton1.Name = "authButton1";
+            authButton1.Size = new Size(490, 50);
+            authButton1.TabIndex = 13;
+            authButton1.Text = "Register";
+            authButton1.UseVisualStyleBackColor = false;
+            authButton1.Click += authButton1_Click;
+            // 
+            // authTextBox2
+            // 
+            authTextBox2.BackColor = Color.Transparent;
+            authTextBox2.BackColor1 = SystemColors.Control;
+            authTextBox2.BorderColor = Color.Black;
+            authTextBox2.BorderSize = 1.53D;
+            authTextBox2.Cursor = Cursors.IBeam;
+            authTextBox2.Font = new Font("Segoe UI", 9F);
+            authTextBox2.Location = new Point(50, 275);
+            authTextBox2.Name = "authTextBox2";
+            authTextBox2.PasswordChar = '\0';
+            authTextBox2.Radius = 20;
+            authTextBox2.Size = new Size(490, 50);
+            authTextBox2.TabIndex = 14;
+            authTextBox2.Text = "Email";
+            authTextBox2.UseSystemPasswordChar = false;
+            authTextBox2.WaterMark = "Email";
+            authTextBox2.WatermarkColor = Color.Gray;
+            // 
+            // authTextBox3
+            // 
+            authTextBox3.BackColor = Color.Transparent;
+            authTextBox3.BackColor1 = SystemColors.Control;
+            authTextBox3.BorderColor = Color.Black;
+            authTextBox3.BorderSize = 1.53D;
+            authTextBox3.Cursor = Cursors.IBeam;
+            authTextBox3.Font = new Font("Segoe UI", 9F);
+            authTextBox3.Location = new Point(50, 357);
+            authTextBox3.Name = "authTextBox3";
+            authTextBox3.PasswordChar = '\0';
+            authTextBox3.Radius = 20;
+            authTextBox3.Size = new Size(490, 50);
+            authTextBox3.TabIndex = 15;
+            authTextBox3.Text = "Password";
+            authTextBox3.UseSystemPasswordChar = false;
+            authTextBox3.WaterMark = "Password";
+            authTextBox3.WatermarkColor = Color.Gray;
+            // 
+            // authTextBox4
+            // 
+            authTextBox4.BackColor = Color.Transparent;
+            authTextBox4.BackColor1 = SystemColors.Control;
+            authTextBox4.BorderColor = Color.Black;
+            authTextBox4.BorderSize = 1.53D;
+            authTextBox4.Cursor = Cursors.IBeam;
+            authTextBox4.Font = new Font("Segoe UI", 9F);
+            authTextBox4.Location = new Point(50, 441);
+            authTextBox4.Name = "authTextBox4";
+            authTextBox4.PasswordChar = '\0';
+            authTextBox4.Radius = 20;
+            authTextBox4.Size = new Size(490, 50);
+            authTextBox4.TabIndex = 16;
+            authTextBox4.Text = "Konfirmasi Password";
+            authTextBox4.UseSystemPasswordChar = false;
+            authTextBox4.WaterMark = "Konfirmasi Password";
+            authTextBox4.WatermarkColor = Color.Gray;
             // 
             // RegisterForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(594, 710);
-            Controls.Add(registerBtn);
+            Controls.Add(authTextBox4);
+            Controls.Add(authTextBox3);
+            Controls.Add(authTextBox2);
+            Controls.Add(authButton1);
+            Controls.Add(authTextBox1);
             Controls.Add(label6);
             Controls.Add(loginLinkBtn);
             Controls.Add(label5);
-            Controls.Add(label4);
-            Controls.Add(label3);
-            Controls.Add(label2);
-            Controls.Add(label1);
-            Controls.Add(passConfirmBox);
-            Controls.Add(passBox);
-            Controls.Add(emailBox);
-            Controls.Add(nameBox);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             Margin = new Padding(3, 4, 3, 4);
             MaximizeBox = false;
@@ -186,19 +184,19 @@
         }
 
         #endregion
-
-        private TextBox nameBox;
-        private TextBox emailBox;
-        private TextBox passBox;
-        private TextBox passConfirmBox;
-        private Label label1;
-        private Label label2;
-        private Label label3;
-        private Label label4;
         private Label label5;
         private Label loginLinkBtn;
         private Label label6;
         private ComponentControls.AuthButton registerBtn1;
         private ComponentControls.AuthButton registerBtn;
+        private ComponentControls.AuthTextBox nameTextBox;
+        private ComponentControls.AuthTextBox emailTextBox;
+        private ComponentControls.AuthTextBox passTextBox;
+        private ComponentControls.AuthTextBox confirmPassTextBox;
+        private ComponentControls.AuthTextBox authTextBox1;
+        private ComponentControls.AuthButton authButton1;
+        private ComponentControls.AuthTextBox authTextBox2;
+        private ComponentControls.AuthTextBox authTextBox3;
+        private ComponentControls.AuthTextBox authTextBox4;
     }
 }

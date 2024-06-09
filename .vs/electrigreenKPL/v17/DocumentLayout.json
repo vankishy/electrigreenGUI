@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\SWIFT\\Documents\\electrigreen-KPL\\electrigreenKPL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|c:\\users\\swift\\documents\\electrigreen-kpl\\electrigreenkpl\\electrigreen\\componentcontrols\\authtextbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\componentcontrols\\authtextbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|c:\\users\\swift\\documents\\electrigreen-kpl\\electrigreenkpl\\electrigreen\\window\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\window\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|c:\\users\\swift\\documents\\electrigreen-kpl\\electrigreenkpl\\electrigreen\\functional\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\functional\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|c:\\users\\swift\\documents\\electrigreen-kpl\\electrigreenkpl\\electrigreen\\window\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\window\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,46 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Register.cs",
-              "DocumentMoniker": "C:\\Users\\SWIFT\\Documents\\electrigreen-KPL\\electrigreenKPL\\electrigreen\\Functional\\Register.cs",
-              "RelativeDocumentMoniker": "electrigreen\\Functional\\Register.cs",
-              "ToolTip": "C:\\Users\\SWIFT\\Documents\\electrigreen-KPL\\electrigreenKPL\\electrigreen\\Functional\\Register.cs",
-              "RelativeToolTip": "electrigreen\\Functional\\Register.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAADgvwoAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T16:38:48.222Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LoginForm.cs",
-              "DocumentMoniker": "C:\\Users\\SWIFT\\Documents\\electrigreen-KPL\\electrigreenKPL\\electrigreen\\Window\\LoginForm.cs",
-              "RelativeDocumentMoniker": "electrigreen\\Window\\LoginForm.cs",
-              "ToolTip": "C:\\Users\\SWIFT\\Documents\\electrigreen-KPL\\electrigreenKPL\\electrigreen\\Window\\LoginForm.cs",
-              "RelativeToolTip": "electrigreen\\Window\\LoginForm.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAgwEUAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T16:39:23.169Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AuthTextBox.cs",
-              "DocumentMoniker": "C:\\Users\\SWIFT\\Documents\\electrigreen-KPL\\electrigreenKPL\\electrigreen\\ComponentControls\\AuthTextBox.cs",
-              "RelativeDocumentMoniker": "electrigreen\\ComponentControls\\AuthTextBox.cs",
-              "ToolTip": "C:\\Users\\SWIFT\\Documents\\electrigreen-KPL\\electrigreenKPL\\electrigreen\\ComponentControls\\AuthTextBox.cs",
-              "RelativeToolTip": "electrigreen\\ComponentControls\\AuthTextBox.cs",
-              "ViewState": "AQIAAIQAAAAAAAAAAAAiwKIAAAAAAAAA",
+              "Title": "RegisterForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\SWIFT\\Documents\\electrigreen-KPL\\electrigreenKPL\\electrigreen\\Window\\RegisterForm.cs",
+              "RelativeDocumentMoniker": "electrigreen\\Window\\RegisterForm.cs",
+              "ToolTip": "C:\\Users\\SWIFT\\Documents\\electrigreen-KPL\\electrigreenKPL\\electrigreen\\Window\\RegisterForm.cs [Design]",
+              "RelativeToolTip": "electrigreen\\Window\\RegisterForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T13:51:12.007Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T04:34:49.403Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

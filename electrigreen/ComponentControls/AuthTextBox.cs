@@ -7,17 +7,17 @@ using System.Threading.Tasks;
 
 using System.Windows.Forms;
 using System.Drawing;
-using System.Drawing.Drawing2D;
+
 namespace electrigreen.ComponentControls
 {
     public class AuthTextBox : Control
     {
-        private int borderSize = 0;
+        private double borderSize = 1.5;
         private int radius = 20;
-        private Color borderColor = Color.Transparent;
+        private Color borderColor = Color.Black;
         private Color backColor;
         private Color waterMarkColor = Color.Gray;
-        private Color mColor = Color.Transparent;
+        private Color mColor = SystemColors.ControlText;
         private string waterMark;
         private GraphicsPath shape;
         private GraphicsPath innerRect;
@@ -30,12 +30,12 @@ namespace electrigreen.ComponentControls
             base.SetStyle(ControlStyles.ResizeRedraw, true);
 
             base.Controls.Add(textBox);
-            base.Size = new Size(135, 33);
+            base.Size = new Size(200, 50);
             textBox.Parent = this;
             textBox.BorderStyle = BorderStyle.None;
             textBox.BackColor = backColor;
-            BackColor = SystemColors.Window;
-            backColor = SystemColors.Window;
+            BackColor = Color.Transparent;
+            backColor = SystemColors.Control;
             Font = new Font("Segoe UI", 9F);
             DoubleBuffered = true;
 
@@ -47,12 +47,12 @@ namespace electrigreen.ComponentControls
             textBox.KeyPress += new KeyPressEventHandler(textBox_KeyPress);
         }
 
-        private void textBox_KeyPress(object? sender, KeyPressEventArgs e)
+        private void textBox_KeyPress(object sender, KeyPressEventArgs e)
         {
             base.OnKeyPress(e);
         }
 
-        private void textBox_Leave(object? sender, EventArgs e)
+        private void textBox_Leave(object sender, EventArgs e)
         {
             if (Text == waterMark || Text == string.Empty)
             {
@@ -65,7 +65,7 @@ namespace electrigreen.ComponentControls
             }
         }
 
-        private void textBox_MouseClick(object? sender, MouseEventArgs e)
+        private void textBox_MouseClick(object sender, MouseEventArgs e)
         {
             if (Text == waterMark || Text == string.Empty)
             {
@@ -74,7 +74,7 @@ namespace electrigreen.ComponentControls
             }
         }
 
-        private void textBox_MouseDoubleClick(object? sender, MouseEventArgs e)
+        private void textBox_MouseDoubleClick(object sender, MouseEventArgs e)
         {
             if (e.Button == MouseButtons.Left)
             {
@@ -82,14 +82,14 @@ namespace electrigreen.ComponentControls
             }
         }
 
-        private void textBox_TextChanged(object? sender, EventArgs e)
+        private void textBox_TextChanged(object sender, EventArgs e)
         {
             Text = textBox.Text;
         }
 
-        private void textBox_KeyDown(object? sender, KeyEventArgs e)
+        private void textBox_KeyDown(object sender, KeyEventArgs e)
         {
-            if (e.Control && e.KeyCode == Keys.A)
+            if (e.Control && (e.KeyCode == Keys.A))
             {
                 textBox.SelectionStart = 0;
                 textBox.SelectionLength = Text.Length;
@@ -116,7 +116,7 @@ namespace electrigreen.ComponentControls
             set
             {
                 backColor = value;
-                if (backColor != SystemColors.Window)
+                if (backColor != Color.Transparent)
                 {
                     textBox.BackColor = backColor;
                 }
@@ -127,7 +127,7 @@ namespace electrigreen.ComponentControls
         public override Color BackColor
         {
             get => base.BackColor;
-            set => base.BackColor = SystemColors.Window;
+            set => base.BackColor = Color.Transparent;
         }
 
         public Color BorderColor
@@ -161,7 +161,7 @@ namespace electrigreen.ComponentControls
             }
         }
 
-        public int BorderSize
+        public double BorderSize
         {
             get => borderSize;
             set
@@ -213,8 +213,8 @@ namespace electrigreen.ComponentControls
         protected override void OnPaint(PaintEventArgs e)
         {
             shape = new MyRectangle((float)base.Width, (float)base.Height, (float)radius/2, 0F, 0F).path;
-            innerRect = new MyRectangle(base.Width-0.5F, base.Height-0.5F, (float)radius/2, 0.5F, 0.5F).path;
-            Pen pen = new Pen(BorderColor, BorderSize);
+            //innerRect = new MyRectangle(base.Width-0.5F, base.Height-0.5F, (float)radius/2, 0.5F, 0.5F).path;
+            Pen pen = new Pen(BorderColor, (float)BorderSize);
 
             if (textBox.Height >= (base.Height - 4))
                 base.Height = textBox.Height + 4;
@@ -224,10 +224,10 @@ namespace electrigreen.ComponentControls
             e.Graphics.SmoothingMode = (SmoothingMode.HighQuality);
             e.Graphics.DrawPath(pen, shape);
 
-            using (SolidBrush brush = new SolidBrush(backColor))
+            /*using (SolidBrush brush = new SolidBrush(backColor))
             {
                 e.Graphics.FillPath((Brush)brush, innerRect);
-            }
+            }*/
             Trans.MakeTransparent(this, e.Graphics);
             base.OnPaint(e);
         }

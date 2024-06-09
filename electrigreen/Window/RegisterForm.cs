@@ -45,43 +45,51 @@ namespace electrigreen.Frame
             loginForm.Show();
         }
 
-        private void registerBtn_Click(object sender, EventArgs e)
+        private void authButton1_Click(object sender, EventArgs e)
         {
-            string nama = nameBox.Text;
-            string email = emailBox.Text;
-            string password = passBox.Text;
-            string passConfirm = passConfirmBox.Text;
+            string nama = authTextBox1.Text;
+            string email = authTextBox2.Text;
+            string password = authTextBox3.Text;
+            string passConfirm = authTextBox4.Text;
 
             if (!isValidName(nama))
             {
                 if (string.IsNullOrWhiteSpace(nama))
                 {
                     label6.Text = "Nama tidak boleh kosong!";
+                    authTextBox1.BorderColor = Color.Red;
                 }
                 else
                     label6.Text = "Nama hanya terdiri dari huruf";
+                authTextBox1.BorderColor = Color.Red;
             }
             else if (isValidName(email))
             {
                 if (string.IsNullOrWhiteSpace(email))
                 {
                     label6.Text = "Email tidak boleh kosong!";
+                    authTextBox2.BorderColor = Color.Red;
                 }
                 else
                     label6.Text = "Format Email tidak valid";
+                authTextBox2.BorderColor = Color.Red;
             }
             else if (password != passConfirm)
             {
                 if (string.IsNullOrWhiteSpace(password))
                 {
                     label6.Text = "Password tidak boleh kosong!";
+                    authTextBox3.BorderColor = Color.Red;
                 }
                 else
                     label6.Text = "Periksa kembali password anda";
+                    authTextBox3.BorderColor = Color.Red;
+                    authTextBox4.BorderColor = Color.Red;
             }
             else if (string.IsNullOrWhiteSpace(passConfirm))
             {
                 label6.Text = "Konfirmasi Password tidak boleh kosong!";
+                authTextBox4.BorderColor = Color.Red;
             }
             else
             {
