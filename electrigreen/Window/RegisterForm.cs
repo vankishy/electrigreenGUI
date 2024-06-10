@@ -1,6 +1,5 @@
 ﻿using electrigreen.Core;
 using electrigreen.Models;
-using LoginPage;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -16,7 +15,7 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 
 
 //Author : Reinhard Situmeang
-namespace electrigreen.Frame
+namespace electrigreen.Window
 {
     public partial class RegisterForm : Form
     {
@@ -93,8 +92,8 @@ namespace electrigreen.Frame
             }
             else
             {
-                string passHash = BCrypt.Net.BCrypt.HashPassword(password, 13); // Hashing password
-                User createUser = new User { Nama = nama, Email = email, Password = passHash };
+                //string passHash = BCrypt.Net.BCrypt.HashPassword(password, 13); // Hashing password
+                User createUser = new User { Nama = nama, Email = email, Password = password };
                 Register register = new Register();
                 register.registerAction(createUser);
                 this.Visible = false;

@@ -1,4 +1,4 @@
-﻿namespace LoginPage
+﻿namespace electrigreen.Window
 {
     partial class LoginForm
     {

@@ -1,4 +1,4 @@
-﻿namespace electrigreen.Frame
+﻿namespace electrigreen.Window
 {
     partial class RegisterForm
     {

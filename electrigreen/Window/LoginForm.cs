@@ -1,10 +1,10 @@
 
-using electrigreen.Frame;
+using electrigreen.Window;
 using electrigreen.Models;
 using System.Net.Http.Json;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 
-namespace LoginPage
+namespace electrigreen.Window
 {
     public partial class LoginForm : Form
     {
@@ -36,7 +36,9 @@ namespace LoginPage
 
                     if (isAuthenticated)
                     {
-                        MessageBox.Show("Email and Password are Correct!");
+                        this.Visible = false;
+                        MainForm mainForm = new MainForm();
+                        mainForm.Show();
                     }
                     else
                     {
