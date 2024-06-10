@@ -12,6 +12,7 @@ using System.Net.Http;
 using System.Text.Json.Serialization;
 using System.Text.Json;
 using Newtonsoft.Json;
+using System.Text.RegularExpressions;
 
 namespace electrigreen.Core
 {
@@ -82,6 +83,12 @@ namespace electrigreen.Core
                 return BCrypt.Net.BCrypt.Verify(password, user.Password);
             }
             return false;
+        }
+
+        public bool IsValidEmail(string email)
+        {
+            string emailPattern = @"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$";
+            return Regex.IsMatch(email, emailPattern);
         }
     }
 }

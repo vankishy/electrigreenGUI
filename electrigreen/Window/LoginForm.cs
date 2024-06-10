@@ -23,14 +23,22 @@ namespace LoginPage
             registerForm.Show();
         }
 
-        private async void button1_ClickAsync(object sender, EventArgs e)
+        private async void authButton1_Click(object sender, EventArgs e)
         {
-            string email = textBox1.Text;
-            string password = textBox2.Text;
+            string email = authTextBox1.Text;
+            string password = authTextBox2.Text;
+
+            AuthenticationMethod authen = new AuthenticationMethod();
+
+            if (!authen.IsValidEmail(email))
+            {
+                MessageBox.Show("Invalid email format.");
+                return;
+            }
 
             try
             {
-                AuthenticationMethod authen = new AuthenticationMethod();
+
                 bool isAuthenticated = await authen.ValidateUserAsync(email, password);
 
                 if (isAuthenticated)
@@ -46,7 +54,6 @@ namespace LoginPage
             {
                 MessageBox.Show("An error occurred: " + ex.Message);
             }
-
         }
     }
 }
