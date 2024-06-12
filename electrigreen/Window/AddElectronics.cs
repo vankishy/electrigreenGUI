@@ -1,14 +1,7 @@
 ﻿using electrigreen.Functional;
 using electrigreen.Models;
-using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace electrigreen.Window
@@ -17,47 +10,55 @@ namespace electrigreen.Window
     {
         private ElectronicsMediator mediator;
         private ShowElectronics showElectronics;
-        private List<Electronics> addedElectronics = new List<Electronics>();
 
-        public AddElectronics(ShowElectronics showElectronics)
+        public AddElectronics(ElectronicsMediator mediator, ShowElectronics showElectronics)
         {
+            //Inisialisasi Komponen
             InitializeComponent();
-            mediator = new ElectronicsMediator();
+            this.mediator = mediator;
             this.showElectronics = showElectronics;
-            addedElectronics = ReadElectronicsFromJson();
         }
 
         private void buttonAdd_Click(object sender, EventArgs e)
         {
-            string nama = textBox1.Text;
-            string merk = textBox2.Text;
-            string voltaseString = textBox3.Text;
-            string jenis = comboBox1.Text;
-            bool isSmarthome = checkBox1.Checked;
+            //Menambahkan Alat Elektronik saat tombol add ditekan
+            AddNewElectronic();
 
-            if (!checkValiditasInput(nama, merk, voltaseString, jenis))
-            {
-                return;
-            }
-            int voltase = int.Parse(voltaseString);
+            //Menjalankan Method untuk membuat notifikasi
+            NotifyPerangkatAdded();
 
-            ElectronicsAddConfig configData = new ElectronicsAddConfig(nama, jenis, merk, voltase, isSmarthome);
-
-            ElectronicsConfig electronicsConfig = new ElectronicsConfig { config = configData };
-            Electronics newElectronics = new Electronics(electronicsConfig, mediator);
-
-            addedElectronics.Add(newElectronics);
-            mediator.AddElectronic(newElectronics);
-
-
-            NotifyPerangkatAdded(nama, isSmarthome, jenis);
+            //Membersihkan Form saat telah di add
             ClearFormFields();
-            WriteElectronicsToJson();
+
+            //Merefresh list pada kelas ShowEltronics
             showElectronics.RefreshList();
         }
 
-        private bool checkValiditasInput(string nama, string merk, string voltase, string jenis)
+        private void AddNewElectronic()
         {
+            //Mengambil data pada textBox lalu memproses data pada mediator untuk dimasukan kedalam JSON
+            string nama = textBoxNama.Text;
+            string jenis = comboBoxJenisPerangkat.Text;
+            string merk = textBoxMerk.Text;
+            string voltaseString = textBoxVoltase.Text;
+            bool isSmarthome = checkBoxIsSmarthome.Checked;
+
+            if (!CheckValiditasInput(nama, merk, voltaseString, jenis))
+            {
+                return;
+            }
+
+            int voltase = int.Parse(voltaseString);
+            ElectronicsAddConfig configData = new ElectronicsAddConfig(nama, jenis, merk, voltase, isSmarthome);
+            ElectronicsConfig electronicsConfig = new ElectronicsConfig { config = configData };
+            Electronics newElectronics = new Electronics(electronicsConfig, mediator);
+
+            mediator.AddElectronic(newElectronics);
+        }
+
+        private bool CheckValiditasInput(string nama, string merk, string voltase, string jenis)
+        {
+            //Secure Code: Mengetes dan memastikan input sesuai dengan Design by Contract
             try
             {
                 if (string.IsNullOrWhiteSpace(nama))
@@ -85,7 +86,6 @@ namespace electrigreen.Window
                     throw new ArgumentException("Voltase harus berupa angka.");
                 }
 
-                // If all checks pass, return true
                 return true;
             }
             catch (ArgumentException ex)
@@ -94,57 +94,32 @@ namespace electrigreen.Window
                 return false;
             }
         }
+
         private void ClearFormFields()
         {
-            textBox1.Text = string.Empty;
-            textBox2.Text = string.Empty;
-            textBox3.Text = string.Empty;
-            comboBox1.SelectedIndex = -1;
-            checkBox1.Checked = false;
+            //Mengosongkan seluruh medium input
+            textBoxNama.Text = string.Empty;
+            textBoxMerk.Text = string.Empty;
+            textBoxVoltase.Text = string.Empty;
+            comboBoxJenisPerangkat.SelectedIndex = -1;
+            comboBoxJenisPerangkat.Text = string.Empty;
+            checkBoxIsSmarthome.Checked = false;
         }
 
-        private void WriteElectronicsToJson()
+        private void NotifyPerangkatAdded()
         {
-            string jsonFilePath = "ElectronicsData.json";
-
-            string json = JsonConvert.SerializeObject(addedElectronics, Newtonsoft.Json.Formatting.Indented);
-
-            // Write JSON to file
-            File.WriteAllText(jsonFilePath, json);
-        }
-        private List<Electronics> ReadElectronicsFromJson()
-        {
-            string jsonFilePath = "ElectronicsData.json";
-
-            if (File.Exists(jsonFilePath))
-            {
-                string json = File.ReadAllText(jsonFilePath);
-                return JsonConvert.DeserializeObject<List<Electronics>>(json) ?? new List<Electronics>();
-            }
-            else
-            {
-                return new List<Electronics>();
-            }
-        }
-
-        private void NotifyPerangkatAdded(String nama, bool isSmarthome, String jenis)
-        {
+            //Mengambil seluruh data lalu membuat notifikasi sesuai format
+            string nama = textBoxNama.Text;
+            string jenis = comboBoxJenisPerangkat.Text;
+            bool isSmarthome = checkBoxIsSmarthome.Checked;
             NotifikasiBerhasil.Icon = Properties.Resources.light_bulb_icon_126685;
             NotifikasiBerhasil.Text = "Perangkat Berhasil Ditambah";
             NotifikasiBerhasil.Visible = true;
             NotifikasiBerhasil.BalloonTipTitle = "Perangkat Berhasil Ditambah";
-            if (isSmarthome)
-            {
-
-                NotifikasiBerhasil.BalloonTipText = $"Perangkat smarthome {jenis} {nama} berhasil ditambahkan.";
-            }
-            else
-            {
-
-                NotifikasiBerhasil.BalloonTipText = $"Perangkat non-smarthome {jenis} {nama} berhasil ditambahkan.";
-            }
+            NotifikasiBerhasil.BalloonTipText = isSmarthome
+                ? $"Perangkat smarthome {jenis} {nama} berhasil ditambahkan."
+                : $"Perangkat non-smarthome {jenis} {nama} berhasil ditambahkan.";
             NotifikasiBerhasil.ShowBalloonTip(100);
         }
     }
 }
-

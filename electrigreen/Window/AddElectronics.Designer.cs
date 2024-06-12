@@ -29,115 +29,105 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
-            textBox3 = new TextBox();
-            label5 = new Label();
-            label4 = new Label();
-            label3 = new Label();
-            comboBox1 = new ComboBox();
-            checkBox1 = new CheckBox();
-            textBox2 = new TextBox();
-            textBox1 = new TextBox();
+            textBoxVoltase = new TextBox();
+            labelVoltase = new Label();
+            labelJenis = new Label();
+            labelMerk = new Label();
+            comboBoxJenisPerangkat = new ComboBox();
+            checkBoxIsSmarthome = new CheckBox();
+            textBoxMerk = new TextBox();
+            textBoxNama = new TextBox();
             buttonAdd = new Button();
-            label1 = new Label();
+            labelNama = new Label();
             NotifikasiBerhasil = new NotifyIcon(components);
             SuspendLayout();
             // 
-            // textBox3
+            // textBoxVoltase
             // 
-            textBox3.Location = new Point(412, 248);
-            textBox3.Margin = new Padding(2);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(339, 31);
-            textBox3.TabIndex = 20;
+            textBoxVoltase.Location = new Point(536, 317);
+            textBoxVoltase.Name = "textBoxVoltase";
+            textBoxVoltase.Size = new Size(439, 39);
+            textBoxVoltase.TabIndex = 20;
             // 
-            // label5
+            // labelVoltase
             // 
-            label5.AutoSize = true;
-            label5.Location = new Point(296, 248);
-            label5.Margin = new Padding(2, 0, 2, 0);
-            label5.Name = "label5";
-            label5.Size = new Size(69, 25);
-            label5.TabIndex = 19;
-            label5.Text = "Voltase";
+            labelVoltase.AutoSize = true;
+            labelVoltase.Location = new Point(385, 317);
+            labelVoltase.Name = "labelVoltase";
+            labelVoltase.Size = new Size(90, 32);
+            labelVoltase.TabIndex = 19;
+            labelVoltase.Text = "Voltase";
             // 
-            // label4
+            // labelJenis
             // 
-            label4.AutoSize = true;
-            label4.Location = new Point(296, 307);
-            label4.Margin = new Padding(2, 0, 2, 0);
-            label4.Name = "label4";
-            label4.Size = new Size(49, 25);
-            label4.TabIndex = 18;
-            label4.Text = "Jenis";
+            labelJenis.AutoSize = true;
+            labelJenis.Location = new Point(385, 393);
+            labelJenis.Name = "labelJenis";
+            labelJenis.Size = new Size(66, 32);
+            labelJenis.TabIndex = 18;
+            labelJenis.Text = "Jenis";
             // 
-            // label3
+            // labelMerk
             // 
-            label3.AutoSize = true;
-            label3.Location = new Point(296, 188);
-            label3.Margin = new Padding(2, 0, 2, 0);
-            label3.Name = "label3";
-            label3.Size = new Size(52, 25);
-            label3.TabIndex = 17;
-            label3.Text = "Merk";
+            labelMerk.AutoSize = true;
+            labelMerk.Location = new Point(385, 241);
+            labelMerk.Name = "labelMerk";
+            labelMerk.Size = new Size(69, 32);
+            labelMerk.TabIndex = 17;
+            labelMerk.Text = "Merk";
             // 
-            // comboBox1
+            // comboBoxJenisPerangkat
             // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Items.AddRange(new object[] { "Air Conditioner", "Handphone", "Kompor Listrik", "Lampu", "Laptop", "Pemanas Air", "Radio", "Rice Cooker", "Televisi" });
-            comboBox1.Location = new Point(412, 301);
-            comboBox1.Margin = new Padding(2);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(339, 33);
-            comboBox1.TabIndex = 16;
+            comboBoxJenisPerangkat.FormattingEnabled = true;
+            comboBoxJenisPerangkat.Items.AddRange(new object[] { "Air Conditioner", "Handphone", "Kompor Listrik", "Lampu", "Laptop", "Pemanas Air", "Radio", "Rice Cooker", "Televisi" });
+            comboBoxJenisPerangkat.Location = new Point(536, 385);
+            comboBoxJenisPerangkat.Name = "comboBoxJenisPerangkat";
+            comboBoxJenisPerangkat.Size = new Size(439, 40);
+            comboBoxJenisPerangkat.TabIndex = 16;
             // 
-            // checkBox1
+            // checkBoxIsSmarthome
             // 
-            checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(412, 376);
-            checkBox1.Margin = new Padding(2);
-            checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(131, 29);
-            checkBox1.TabIndex = 15;
-            checkBox1.Text = "Smarthome";
-            checkBox1.UseVisualStyleBackColor = true;
+            checkBoxIsSmarthome.AutoSize = true;
+            checkBoxIsSmarthome.Location = new Point(536, 481);
+            checkBoxIsSmarthome.Name = "checkBoxIsSmarthome";
+            checkBoxIsSmarthome.Size = new Size(170, 36);
+            checkBoxIsSmarthome.TabIndex = 15;
+            checkBoxIsSmarthome.Text = "Smarthome";
+            checkBoxIsSmarthome.UseVisualStyleBackColor = true;
             // 
-            // textBox2
+            // textBoxMerk
             // 
-            textBox2.Location = new Point(412, 182);
-            textBox2.Margin = new Padding(2);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(339, 31);
-            textBox2.TabIndex = 14;
+            textBoxMerk.Location = new Point(536, 233);
+            textBoxMerk.Name = "textBoxMerk";
+            textBoxMerk.Size = new Size(439, 39);
+            textBoxMerk.TabIndex = 14;
             // 
-            // textBox1
+            // textBoxNama
             // 
-            textBox1.Location = new Point(412, 127);
-            textBox1.Margin = new Padding(2);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(339, 31);
-            textBox1.TabIndex = 13;
+            textBoxNama.Location = new Point(536, 163);
+            textBoxNama.Name = "textBoxNama";
+            textBoxNama.Size = new Size(439, 39);
+            textBoxNama.TabIndex = 13;
             // 
             // buttonAdd
             // 
-            buttonAdd.Location = new Point(412, 448);
-            buttonAdd.Margin = new Padding(2);
+            buttonAdd.Location = new Point(536, 573);
             buttonAdd.Name = "buttonAdd";
-            buttonAdd.Size = new Size(220, 62);
+            buttonAdd.Size = new Size(286, 79);
             buttonAdd.TabIndex = 12;
             buttonAdd.Text = "Add";
             buttonAdd.UseVisualStyleBackColor = true;
             buttonAdd.Click += buttonAdd_Click;
             // 
-            // label1
+            // labelNama
             // 
-            label1.AutoSize = true;
-            label1.BackColor = SystemColors.Control;
-            label1.Location = new Point(296, 127);
-            label1.Margin = new Padding(2, 0, 2, 0);
-            label1.Name = "label1";
-            label1.Size = new Size(59, 25);
-            label1.TabIndex = 11;
-            label1.Text = "Nama";
+            labelNama.AutoSize = true;
+            labelNama.BackColor = SystemColors.Control;
+            labelNama.Location = new Point(385, 163);
+            labelNama.Name = "labelNama";
+            labelNama.Size = new Size(77, 32);
+            labelNama.TabIndex = 11;
+            labelNama.Text = "Nama";
             // 
             // NotifikasiBerhasil
             // 
@@ -146,20 +136,19 @@
             // 
             // AddElectronics
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1047, 638);
-            Controls.Add(textBox3);
-            Controls.Add(label5);
-            Controls.Add(label4);
-            Controls.Add(label3);
-            Controls.Add(comboBox1);
-            Controls.Add(checkBox1);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            ClientSize = new Size(1361, 817);
+            Controls.Add(textBoxVoltase);
+            Controls.Add(labelVoltase);
+            Controls.Add(labelJenis);
+            Controls.Add(labelMerk);
+            Controls.Add(comboBoxJenisPerangkat);
+            Controls.Add(checkBoxIsSmarthome);
+            Controls.Add(textBoxMerk);
+            Controls.Add(textBoxNama);
             Controls.Add(buttonAdd);
-            Controls.Add(label1);
-            Margin = new Padding(2);
+            Controls.Add(labelNama);
             Name = "AddElectronics";
             Text = "AddElectronics";
             ResumeLayout(false);
@@ -168,16 +157,16 @@
 
         #endregion
 
-        private TextBox textBox3;
-        private Label label5;
-        private Label label4;
-        private Label label3;
-        private ComboBox comboBox1;
-        private CheckBox checkBox1;
-        private TextBox textBox2;
-        private TextBox textBox1;
+        private TextBox textBoxVoltase;
+        private Label labelVoltase;
+        private Label labelJenis;
+        private Label labelMerk;
+        private ComboBox comboBoxJenisPerangkat;
+        private CheckBox checkBoxIsSmarthome;
+        private TextBox textBoxMerk;
+        private TextBox textBoxNama;
         private Button buttonAdd;
-        private Label label1;
+        private Label labelNama;
         private NotifyIcon NotifikasiBerhasil;
     }
 }

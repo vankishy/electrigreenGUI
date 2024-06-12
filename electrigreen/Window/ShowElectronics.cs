@@ -1,53 +1,30 @@
 ﻿using electrigreen.Functional;
-using Newtonsoft.Json;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace electrigreen.Window
 {
     public partial class ShowElectronics : Form
     {
-        private List<Electronics> addedElectronics;
-        private string jsonFilePath = "ElectronicsData.json";
+        private ElectronicsMediator mediator;
 
         public ShowElectronics()
         {
-            // Inisialisasi komponen.
+            //Inisialisasi komponen.
             InitializeComponent();
 
-            // Mengambil data dari file json.
-            LoadElectronicsFromJson();
+            //Mengambil data dari file json.
+            mediator = new ElectronicsMediator();
 
-            // Inisialisasi listbox.
+            //Inisialisasi listbox.
             InitializeListBox();
-        }
-
-        public void LoadElectronicsFromJson()
-        {
-            // Method ini mengambil data dari file json sebagai list Electronics dengan nama "addedElectronics".
-            // Jika gagal dalam mengambil data, maka akan melempar exception berupa message ke console.
-            try
-            {
-                string json = File.ReadAllText(jsonFilePath);
-                addedElectronics = JsonConvert.DeserializeObject<List<Electronics>>(json) ?? new List<Electronics>();
-            }catch(Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
         }
 
         private void InitializeListBox()
         {
             // Method inisialisasi listbox akan menampilkan data-data nama dari list "addedElectronics".
             listBoxElectronics.Items.Clear();
-            foreach (var electronics in addedElectronics)
+            foreach (var electronics in mediator.GetElectronicsList())
             {
                 listBoxElectronics.Items.Add(electronics.config.config.nama);
             }
@@ -58,7 +35,7 @@ namespace electrigreen.Window
             // Ketika salah satu objek listbox ditekan, program akan memberikan detail dari isi objek yang ditekan dalam bentuk label.
             if (listBoxElectronics.SelectedIndex != -1)
             {
-                var selectedElectronics = addedElectronics[listBoxElectronics.SelectedIndex];
+                var selectedElectronics = mediator.GetElectronicsList()[listBoxElectronics.SelectedIndex];
                 labelNama.Text = $"Nama: {selectedElectronics.config.config.nama}";
                 labelMerk.Text = $"Merk: {selectedElectronics.config.config.merk}";
                 labelVoltase.Text = $"Voltase: {selectedElectronics.config.config.voltase}";
@@ -70,13 +47,14 @@ namespace electrigreen.Window
         private void addElectronicsPageButton_Click(object sender, EventArgs e)
         {
             // Masuk ke halaman add electronics sebagai dialog.
-            AddElectronics addElectronicsPage = new AddElectronics(this);
+            AddElectronics addElectronicsPage = new AddElectronics(mediator, this);
             addElectronicsPage.ShowDialog();
-            LoadElectronicsFromJson();
+            RefreshList();
         }
+
         public void RefreshList()
         {
-            LoadElectronicsFromJson();
+            //Merefresh data pada List
             InitializeListBox();
         }
     }
