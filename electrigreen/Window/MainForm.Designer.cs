@@ -274,6 +274,7 @@
             // mainPanel
             // 
             mainPanel.Dock = DockStyle.Fill;
+            mainPanel.ForeColor = Color.Transparent;
             mainPanel.Location = new Point(0, 69);
             mainPanel.Name = "mainPanel";
             mainPanel.Size = new Size(1407, 703);
