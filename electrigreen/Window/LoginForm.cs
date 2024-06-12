@@ -1,8 +1,10 @@
 
 using electrigreen.Window;
 using electrigreen.Models;
+using System.Diagnostics;
 using System.Net.Http.Json;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
+using electrigreen.Core;
 
 namespace electrigreen.Window
 {
@@ -22,66 +24,39 @@ namespace electrigreen.Window
             registerForm.Show();
         }
 
-        private async void button1_ClickAsync(object sender, EventArgs e)
+        private async void authButton1_Click(object sender, EventArgs e)
         {
-            using (HttpClient httpClient = new HttpClient())
+            string email = authTextBox1.Text;
+            string password = authTextBox2.Text;
+
+            AuthenticationMethod authen = new AuthenticationMethod();
+
+            if (!authen.IsValidEmail(email))
             {
-
-                httpClient.BaseAddress = new Uri("http://localhost:5263");
-
-                try
-                {
-
-                    var isAuthenticated = await AuthenticateWithAPI(textBox1.Text, textBox2.Text);
-
-                    if (isAuthenticated)
-                    {
-                        this.Visible = false;
-                        MainForm mainForm = new MainForm();
-                        mainForm.Show();
-                    }
-                    else
-                    {
-                        MessageBox.Show("Failed to Login, Email or Password is incorrect.");
-
-                    }
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show("An error occurred: " + ex.Message);
-                }
+                MessageBox.Show("Invalid email format.");
+                return;
             }
 
-
-        }
-        public async Task<bool> AuthenticateWithAPI(string email, string password)
-        {
-            using (HttpClient httpClient = new HttpClient())
+            try
             {
-                httpClient.BaseAddress = new Uri("http://localhost:5263");
 
-                var loginUser = new LoginModel { Email = email, Password = password };
+                bool isAuthenticated = await authen.ValidateUserAsync(email, password);
 
-                HttpResponseMessage resMessage = await httpClient.PostAsJsonAsync("api/Auth/Login", loginUser);
-
-                if (resMessage.IsSuccessStatusCode)
+                if (isAuthenticated)
                 {
-                    return true;
-                }
-                else if (resMessage.StatusCode == System.Net.HttpStatusCode.BadRequest)
-                {
-                    return false;
+                    this.Visible = false;
+                    MainForm mainForm = new MainForm();
+                    mainForm.Show();
                 }
                 else
                 {
-                    return false;
+                    MessageBox.Show("Failed to Login, Email or Password is incorrect.");
                 }
             }
-        }
-
-        private void LoginForm_Load(object sender, EventArgs e)
-        {
-
+            catch (Exception ex)
+            {
+                MessageBox.Show("An error occurred: " + ex.Message);
+            }
         }
     }
 }

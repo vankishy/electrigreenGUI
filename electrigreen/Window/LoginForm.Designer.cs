@@ -29,34 +29,23 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginForm));
-            label1 = new Label();
             label2 = new Label();
             label3 = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            button1 = new Button();
             label5 = new Label();
             label4 = new Label();
+            pictureBox1 = new PictureBox();
+            authTextBox1 = new electrigreen.ComponentControls.AuthTextBox();
+            authTextBox2 = new electrigreen.ComponentControls.AuthTextBox();
+            authButton1 = new electrigreen.ComponentControls.AuthButton();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe Print", 25.8000011F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.ForeColor = Color.DeepSkyBlue;
-            label1.Location = new Point(215, 46);
-            label1.Name = "label1";
-            label1.Size = new Size(154, 79);
-            label1.TabIndex = 0;
-            label1.Text = "Login";
-            label1.TextAlign = ContentAlignment.TopCenter;
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Verdana", 16.2F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            label2.ForeColor = Color.DeepSkyBlue;
-            label2.Location = new Point(53, 219);
+            label2.ForeColor = Color.MediumSeaGreen;
+            label2.Location = new Point(161, 210);
             label2.Name = "label2";
             label2.Size = new Size(103, 34);
             label2.TabIndex = 1;
@@ -66,48 +55,17 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Verdana", 16.2F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            label3.ForeColor = Color.DeepSkyBlue;
-            label3.Location = new Point(53, 328);
+            label3.ForeColor = Color.MediumSeaGreen;
+            label3.Location = new Point(161, 319);
             label3.Name = "label3";
             label3.Size = new Size(169, 34);
             label3.TabIndex = 2;
             label3.Text = "Password";
             // 
-            // textBox1
-            // 
-            textBox1.BorderStyle = BorderStyle.FixedSingle;
-            textBox1.Location = new Point(55, 265);
-            textBox1.Multiline = true;
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(233, 34);
-            textBox1.TabIndex = 3;
-            // 
-            // textBox2
-            // 
-            textBox2.BorderStyle = BorderStyle.FixedSingle;
-            textBox2.Location = new Point(55, 381);
-            textBox2.Multiline = true;
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(233, 34);
-            textBox2.TabIndex = 4;
-            // 
-            // button1
-            // 
-            button1.BackColor = Color.DodgerBlue;
-            button1.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button1.ForeColor = Color.White;
-            button1.Location = new Point(215, 524);
-            button1.Name = "button1";
-            button1.Size = new Size(157, 59);
-            button1.TabIndex = 5;
-            button1.Text = "Login";
-            button1.UseVisualStyleBackColor = false;
-            button1.Click += button1_ClickAsync;
-            // 
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(164, 610);
+            label5.Location = new Point(181, 574);
             label5.Name = "label5";
             label5.Size = new Size(168, 20);
             label5.TabIndex = 7;
@@ -117,47 +75,105 @@
             // 
             label4.AutoSize = true;
             label4.ForeColor = SystemColors.Highlight;
-            label4.Location = new Point(326, 610);
+            label4.Location = new Point(343, 574);
             label4.Name = "label4";
             label4.Size = new Size(63, 20);
             label4.TabIndex = 8;
             label4.Text = "Register";
             label4.Click += label4_Click;
             // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = electrigreen.Properties.Resources.Logo;
+            pictureBox1.Location = new Point(161, 44);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(270, 62);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox1.TabIndex = 18;
+            pictureBox1.TabStop = false;
+            // 
+            // authTextBox1
+            // 
+            authTextBox1.BackColor = Color.Transparent;
+            authTextBox1.BackColor1 = SystemColors.Control;
+            authTextBox1.BorderColor = Color.Black;
+            authTextBox1.BorderSize = 1.5D;
+            authTextBox1.Font = new Font("Segoe UI", 9F);
+            authTextBox1.Location = new Point(163, 259);
+            authTextBox1.Name = "authTextBox1";
+            authTextBox1.PasswordChar = '\0';
+            authTextBox1.Radius = 20;
+            authTextBox1.Size = new Size(268, 45);
+            authTextBox1.TabIndex = 19;
+            authTextBox1.UseSystemPasswordChar = false;
+            authTextBox1.WaterMark = "Your Email";
+            authTextBox1.WatermarkColor = Color.Gray;
+            // 
+            // authTextBox2
+            // 
+            authTextBox2.BackColor = Color.Transparent;
+            authTextBox2.BackColor1 = SystemColors.Control;
+            authTextBox2.BorderColor = Color.Black;
+            authTextBox2.BorderSize = 1.5D;
+            authTextBox2.Font = new Font("Segoe UI", 9F);
+            authTextBox2.Location = new Point(163, 356);
+            authTextBox2.Name = "authTextBox2";
+            authTextBox2.PasswordChar = '\0';
+            authTextBox2.Radius = 20;
+            authTextBox2.Size = new Size(268, 45);
+            authTextBox2.TabIndex = 20;
+            authTextBox2.UseSystemPasswordChar = false;
+            authTextBox2.WaterMark = "Correct Password";
+            authTextBox2.WatermarkColor = Color.Gray;
+            // 
+            // authButton1
+            // 
+            authButton1.BackColor = Color.FromArgb(114, 199, 72);
+            authButton1.FlatAppearance.BorderSize = 0;
+            authButton1.FlatStyle = FlatStyle.Flat;
+            authButton1.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            authButton1.ForeColor = Color.White;
+            authButton1.Location = new Point(201, 491);
+            authButton1.Name = "authButton1";
+            authButton1.Size = new Size(188, 50);
+            authButton1.TabIndex = 21;
+            authButton1.Text = "Login";
+            authButton1.UseVisualStyleBackColor = false;
+            authButton1.Click += authButton1_Click;
+            // 
             // LoginForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.White;
+            BackColor = SystemColors.Control;
             ClientSize = new Size(594, 710);
+            Controls.Add(authButton1);
+            Controls.Add(authTextBox2);
+            Controls.Add(authTextBox1);
+            Controls.Add(pictureBox1);
             Controls.Add(label4);
             Controls.Add(label5);
-            Controls.Add(button1);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
             Controls.Add(label3);
             Controls.Add(label2);
-            Controls.Add(label1);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             Icon = (Icon)resources.GetObject("$this.Icon");
             MaximizeBox = false;
             Name = "LoginForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Electrigreen";
-            Load += LoginForm_Load;
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
-
-        private Label label1;
         private Label label2;
         private Label label3;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private Button button1;
         private Label label5;
         private Label label4;
+        private PictureBox pictureBox1;
+        private electrigreen.ComponentControls.AuthTextBox authTextBox1;
+        private electrigreen.ComponentControls.AuthTextBox authTextBox2;
+        private electrigreen.ComponentControls.AuthButton authButton1;
     }
 }

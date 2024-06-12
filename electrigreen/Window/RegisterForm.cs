@@ -92,9 +92,9 @@ namespace electrigreen.Window
             }
             else
             {
-                //string passHash = BCrypt.Net.BCrypt.HashPassword(password, 13); // Hashing password
-                User createUser = new User { Nama = nama, Email = email, Password = password };
-                Register register = new Register();
+                string passHash = BCrypt.Net.BCrypt.HashPassword(password, 13); // Hashing password
+                User createUser = new User { Nama = nama, Email = email, Password = passHash };
+                AuthenticationMethod register = new AuthenticationMethod();
                 register.registerAction(createUser);
                 this.Visible = false;
                 LoginForm loginForm = new LoginForm();

@@ -104,6 +104,28 @@ namespace electrigreenAPI.Controllers
             {
                 return Conflict("Email atau Password Salah");
             }
-        }  
+        }
+
+        [HttpGet("{email}")]
+        public IActionResult GetUserByEmail(string email)
+        {
+            if (string.IsNullOrWhiteSpace(email))
+            {
+                return BadRequest("Email harus diisi");
+            }
+
+            var user = _users.FirstOrDefault(u => u.email.Equals(email, StringComparison.OrdinalIgnoreCase));
+
+            if (user != null)
+            {
+                return Ok(user);
+            }
+            else
+            {
+                return NotFound("Pengguna tidak ditemukan");
+            }
+        }
     }
+
+
 }
