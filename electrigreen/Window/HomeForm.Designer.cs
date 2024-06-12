@@ -211,11 +211,12 @@
             // 
             // HomeForm
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
-            ClientSize = new Size(1407, 703);
+            ClientSize = new Size(2286, 1125);
             FormBorderStyle = FormBorderStyle.None;
+            Margin = new Padding(5, 5, 5, 5);
             Name = "HomeForm";
             Text = "HomeForm";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();

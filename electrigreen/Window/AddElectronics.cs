@@ -24,10 +24,7 @@ namespace electrigreen.Window
             InitializeComponent();
             mediator = new ElectronicsMediator();
 
-            comboBox1.Items.AddRange(new String[]
-            {
-
-            });
+            addedElectronics = ReadElectronicsFromJson();
         }
 
         private void buttonAdd_Click(object sender, EventArgs e)
@@ -56,40 +53,46 @@ namespace electrigreen.Window
             NotifyPerangkatAdded(nama, isSmarthome, jenis);
             ClearFormFields();
             WriteElectronicsToJson();
+            ShowElectronics.LoadElectronicsFromJson();
         }
 
         private bool checkValiditasInput(string nama, string merk, string voltase, string jenis)
         {
-            if (string.IsNullOrWhiteSpace(nama))
+            try
             {
-                MessageBox.Show("Form nama Harus Diisi.", "Input Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return false;
-            }
+                if (string.IsNullOrWhiteSpace(nama))
+                {
+                    throw new ArgumentException("Form nama Harus Diisi.");
+                }
 
-            if (string.IsNullOrWhiteSpace(merk))
-            {
-                MessageBox.Show("Form merk Harus Diisi.", "Input Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return false;
-            }
+                if (string.IsNullOrWhiteSpace(merk))
+                {
+                    throw new ArgumentException("Form merk Harus Diisi.");
+                }
 
-            if (string.IsNullOrWhiteSpace(voltase))
-            {
-                MessageBox.Show("Form voltase Harus Diisi.", "Input Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return false;
-            }
+                if (string.IsNullOrWhiteSpace(voltase))
+                {
+                    throw new ArgumentException("Form voltase Harus Diisi.");
+                }
 
-            if (string.IsNullOrWhiteSpace(jenis))
-            {
-                MessageBox.Show("Form jenis Harus Diisi.", "Input Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return false;
-            }
+                if (string.IsNullOrWhiteSpace(jenis))
+                {
+                    throw new ArgumentException("Form jenis Harus Diisi.");
+                }
 
-            if (!int.TryParse(voltase, out int voltaseAngka))
+                if (!int.TryParse(voltase, out int voltaseAngka))
+                {
+                    throw new ArgumentException("Voltase harus berupa angka.");
+                }
+
+                // If all checks pass, return true
+                return true;
+            }
+            catch (ArgumentException ex)
             {
-                MessageBox.Show("Voltase harus berupa angka.", "Input Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(ex.Message, "Input Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false;
             }
-            return true;
         }
         private void ClearFormFields()
         {
@@ -109,10 +112,24 @@ namespace electrigreen.Window
             // Write JSON to file
             File.WriteAllText(jsonFilePath, json);
         }
+        private List<Electronics> ReadElectronicsFromJson()
+        {
+            string jsonFilePath = "ElectronicsData.json";
+
+            if (File.Exists(jsonFilePath))
+            {
+                string json = File.ReadAllText(jsonFilePath);
+                return JsonConvert.DeserializeObject<List<Electronics>>(json) ?? new List<Electronics>();
+            }
+            else
+            {
+                return new List<Electronics>();
+            }
+        }
 
         private void NotifyPerangkatAdded(String nama, bool isSmarthome, String jenis)
         {
-            NotifikasiBerhasil.Icon = new System.Drawing.Icon(Path.GetFullPath("light_bulb_icon_126685.ico"));
+            NotifikasiBerhasil.Icon = Properties.Resources.light_bulb_icon_126685;
             NotifikasiBerhasil.Text = "Perangkat Berhasil Ditambah";
             NotifikasiBerhasil.Visible = true;
             NotifikasiBerhasil.BalloonTipTitle = "Perangkat Berhasil Ditambah";

@@ -14,8 +14,8 @@ namespace electrigreen.Window
 {
     public partial class ShowElectronics : Form
     {
-        private List<Electronics> addedElectronics;
-        private string jsonFilePath = "ElectronicsData.json";
+        private static  List<Electronics> addedElectronics;
+        private static string jsonFilePath = "ElectronicsData.json";
 
         public ShowElectronics()
         {
@@ -29,7 +29,7 @@ namespace electrigreen.Window
             InitializeListBox();
         }
 
-        private void LoadElectronicsFromJson()
+        public static void LoadElectronicsFromJson()
         {
             // Method ini mengambil data dari file json sebagai list Electronics dengan nama "addedElectronics".
             // Jika gagal dalam mengambil data, maka akan melempar exception berupa message ke console.
