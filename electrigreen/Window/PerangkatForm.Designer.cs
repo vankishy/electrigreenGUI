@@ -36,6 +36,7 @@
             label1.Anchor = AnchorStyles.None;
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 48F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.ForeColor = Color.FromArgb(94, 143, 51);
             label1.Location = new Point(429, 277);
             label1.Name = "label1";
             label1.Size = new Size(567, 106);
