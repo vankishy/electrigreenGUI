@@ -1,26 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Tubes_KPL_Anjim\\electrigreenGUI\\",
+  "WorkspaceRootPath": "D:\\TUGAS BESAR\\electrigreenGUI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|d:\\tubes_kpl_anjim\\electrigreengui\\electrigreen\\window\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\window\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|D:\\Tubes_KPL_Anjim\\electrigreenGUI\\electrigreen\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|D:\\Tubes_KPL_Anjim\\electrigreenGUI\\electrigreen\\functional\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\functional\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|D:\\Tubes_KPL_Anjim\\electrigreenGUI\\electrigreen\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|D:\\Tubes_KPL_Anjim\\electrigreenGUI\\electrigreen\\window\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\window\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|d:\\tugas besar\\electrigreengui\\electrigreen\\window\\artikel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\window\\artikel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,67 +14,18 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": ".gitignore",
-              "DocumentMoniker": "D:\\Tubes_KPL_Anjim\\electrigreenGUI\\electrigreen\\.gitignore",
-              "RelativeDocumentMoniker": "electrigreen\\.gitignore",
-              "ToolTip": "D:\\Tubes_KPL_Anjim\\electrigreenGUI\\electrigreen\\.gitignore",
-              "RelativeToolTip": "electrigreen\\.gitignore",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-06-07T11:39:14.824Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Register.cs",
-              "DocumentMoniker": "D:\\Tubes_KPL_Anjim\\electrigreenGUI\\electrigreen\\Functional\\Register.cs",
-              "RelativeDocumentMoniker": "electrigreen\\Functional\\Register.cs",
-              "ToolTip": "D:\\Tubes_KPL_Anjim\\electrigreenGUI\\electrigreen\\Functional\\Register.cs",
-              "RelativeToolTip": "electrigreen\\Functional\\Register.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T11:38:55.063Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RegisterForm.cs",
-              "DocumentMoniker": "D:\\Tubes_KPL_Anjim\\electrigreenGUI\\electrigreen\\Window\\RegisterForm.cs",
-              "RelativeDocumentMoniker": "electrigreen\\Window\\RegisterForm.cs",
-              "ToolTip": "D:\\Tubes_KPL_Anjim\\electrigreenGUI\\electrigreen\\Window\\RegisterForm.cs",
-              "RelativeToolTip": "electrigreen\\Window\\RegisterForm.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T10:53:05.623Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Tubes_KPL_Anjim\\electrigreenGUI\\electrigreen\\Program.cs",
-              "RelativeDocumentMoniker": "electrigreen\\Program.cs",
-              "ToolTip": "D:\\Tubes_KPL_Anjim\\electrigreenGUI\\electrigreen\\Program.cs",
-              "RelativeToolTip": "electrigreen\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T10:52:37.99Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "RegisterForm.cs [Design]",
-              "DocumentMoniker": "D:\\Tubes_KPL_Anjim\\electrigreenGUI\\electrigreen\\Window\\RegisterForm.cs",
-              "RelativeDocumentMoniker": "electrigreen\\Window\\RegisterForm.cs",
-              "ToolTip": "D:\\Tubes_KPL_Anjim\\electrigreenGUI\\electrigreen\\Window\\RegisterForm.cs [Design]",
-              "RelativeToolTip": "electrigreen\\Window\\RegisterForm.cs [Design]",
+              "Title": "Artikel.cs [Design]",
+              "DocumentMoniker": "D:\\TUGAS BESAR\\electrigreenGUI\\electrigreen\\Window\\Artikel.cs",
+              "RelativeDocumentMoniker": "electrigreen\\Window\\Artikel.cs",
+              "ToolTip": "D:\\TUGAS BESAR\\electrigreenGUI\\electrigreen\\Window\\Artikel.cs [Design]",
+              "RelativeToolTip": "electrigreen\\Window\\Artikel.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T10:35:35.158Z",
+              "WhenOpened": "2024-06-12T09:51:06.146Z",
               "EditorCaption": " [Design]"
             }
           ]

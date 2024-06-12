@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Tubes_KPL_Anjim\\electrigreenGUI\\electrigreenAPI\\electrigreenAPI.csproj": {}
+    "D:\\TUGAS BESAR\\electrigreenGUI\\electrigreenAPI\\electrigreenAPI.csproj": {}
   },
   "projects": {
-    "D:\\Tubes_KPL_Anjim\\electrigreenGUI\\electrigreenAPI\\electrigreenAPI.csproj": {
+    "D:\\TUGAS BESAR\\electrigreenGUI\\electrigreenAPI\\electrigreenAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Tubes_KPL_Anjim\\electrigreenGUI\\electrigreenAPI\\electrigreenAPI.csproj",
+        "projectUniqueName": "D:\\TUGAS BESAR\\electrigreenGUI\\electrigreenAPI\\electrigreenAPI.csproj",
         "projectName": "electrigreenAPI",
-        "projectPath": "D:\\Tubes_KPL_Anjim\\electrigreenGUI\\electrigreenAPI\\electrigreenAPI.csproj",
-        "packagesPath": "C:\\Users\\RIZKY KUSUMA\\.nuget\\packages\\",
-        "outputPath": "D:\\Tubes_KPL_Anjim\\electrigreenGUI\\electrigreenAPI\\obj\\",
+        "projectPath": "D:\\TUGAS BESAR\\electrigreenGUI\\electrigreenAPI\\electrigreenAPI.csproj",
+        "packagesPath": "C:\\Users\\whoskiiyy\\.nuget\\packages\\",
+        "outputPath": "D:\\TUGAS BESAR\\electrigreenGUI\\electrigreenAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\RIZKY KUSUMA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\whoskiiyy\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -69,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
