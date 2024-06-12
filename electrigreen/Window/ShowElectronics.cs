@@ -19,33 +19,33 @@ namespace electrigreen.Window
 
         public ShowElectronics()
         {
-            // Inisialisasi komponen
+            // Inisialisasi komponen.
             InitializeComponent();
 
-            // Mengambil data dari file json
+            // Mengambil data dari file json.
             LoadElectronicsFromJson();
 
-            // Inisialisasi listbox
+            // Inisialisasi listbox.
             InitializeListBox();
         }
 
         private void LoadElectronicsFromJson()
         {
-            // Method ini mengambil data dari file json sebagai list Electronics dengan nama "addedElectronics"
-            if (File.Exists(jsonFilePath))
+            // Method ini mengambil data dari file json sebagai list Electronics dengan nama "addedElectronics".
+            // Jika gagal dalam mengambil data, maka akan melempar exception berupa message ke console.
+            try
             {
                 string json = File.ReadAllText(jsonFilePath);
                 addedElectronics = JsonConvert.DeserializeObject<List<Electronics>>(json) ?? new List<Electronics>();
-            }
-            else
+            }catch(Exception ex)
             {
-                addedElectronics = new List<Electronics>();
+                Console.WriteLine(ex.Message);
             }
         }
 
         private void InitializeListBox()
         {
-            // Method inisialisasi listbox akan menampilkan data-data nama dari list "addedElectronics"
+            // Method inisialisasi listbox akan menampilkan data-data nama dari list "addedElectronics".
             listBoxElectronics.Items.Clear();
             foreach (var electronics in addedElectronics)
             {
@@ -55,7 +55,7 @@ namespace electrigreen.Window
 
         private void listBoxElectronics_SelectedIndexChanged(object sender, EventArgs e)
         {
-            // Ketika salah satu objek listbox ditekan, program akan memberikan detail dari isi objek yang ditekan dalam bentuk label 
+            // Ketika salah satu objek listbox ditekan, program akan memberikan detail dari isi objek yang ditekan dalam bentuk label.
             if (listBoxElectronics.SelectedIndex != -1)
             {
                 var selectedElectronics = addedElectronics[listBoxElectronics.SelectedIndex];
@@ -67,11 +67,12 @@ namespace electrigreen.Window
             }
         }
 
-        private void buttonAddElectronicsPage_Click(object sender, EventArgs e)
+        private void addElectronicsPageButton_Click(object sender, EventArgs e)
         {
-            // Masuk ke halaman add electronics sebagai dialog
+            // Masuk ke halaman add electronics sebagai dialog.
             AddElectronics addElectronicsPage = new AddElectronics();
             addElectronicsPage.ShowDialog();
+            LoadElectronicsFromJson();
         }
     }
 }

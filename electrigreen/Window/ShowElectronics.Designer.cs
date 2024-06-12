@@ -40,92 +40,104 @@
             labelVoltase = new Label();
             labelJenis = new Label();
             labelIsSmarthome = new Label();
-            buttonAddElectronicsPage = new Button();
+            addElectronicsPageButton = new ComponentControls.AuthButton();
             SuspendLayout();
             // 
             // listBoxElectronics
             // 
+            listBoxElectronics.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
             listBoxElectronics.FormattingEnabled = true;
-            listBoxElectronics.ItemHeight = 25;
-            listBoxElectronics.Location = new Point(15, 19);
+            listBoxElectronics.ItemHeight = 28;
+            listBoxElectronics.Location = new Point(62, 49);
             listBoxElectronics.Margin = new Padding(4, 5, 4, 5);
             listBoxElectronics.Name = "listBoxElectronics";
-            listBoxElectronics.Size = new Size(450, 604);
+            listBoxElectronics.Size = new Size(589, 760);
             listBoxElectronics.TabIndex = 0;
             listBoxElectronics.SelectedIndexChanged += listBoxElectronics_SelectedIndexChanged;
             // 
             // labelNama
             // 
             labelNama.AutoSize = true;
-            labelNama.Location = new Point(503, 19);
+            labelNama.Font = new Font("Segoe UI", 12F);
+            labelNama.Location = new Point(724, 49);
             labelNama.Margin = new Padding(4, 0, 4, 0);
             labelNama.Name = "labelNama";
-            labelNama.Size = new Size(63, 25);
+            labelNama.Size = new Size(82, 32);
             labelNama.TabIndex = 1;
             labelNama.Text = "Nama:";
             // 
             // labelMerk
             // 
             labelMerk.AutoSize = true;
-            labelMerk.Location = new Point(503, 66);
+            labelMerk.Font = new Font("Segoe UI", 12F);
+            labelMerk.Location = new Point(724, 103);
             labelMerk.Margin = new Padding(4, 0, 4, 0);
             labelMerk.Name = "labelMerk";
-            labelMerk.Size = new Size(56, 25);
+            labelMerk.Size = new Size(74, 32);
             labelMerk.TabIndex = 2;
             labelMerk.Text = "Merk:";
             // 
             // labelVoltase
             // 
             labelVoltase.AutoSize = true;
-            labelVoltase.Location = new Point(503, 112);
+            labelVoltase.Font = new Font("Segoe UI", 12F);
+            labelVoltase.Location = new Point(724, 156);
             labelVoltase.Margin = new Padding(4, 0, 4, 0);
             labelVoltase.Name = "labelVoltase";
-            labelVoltase.Size = new Size(73, 25);
+            labelVoltase.Size = new Size(95, 32);
             labelVoltase.TabIndex = 3;
             labelVoltase.Text = "Voltase:";
             // 
             // labelJenis
             // 
             labelJenis.AutoSize = true;
-            labelJenis.Location = new Point(503, 159);
+            labelJenis.Font = new Font("Segoe UI", 12F);
+            labelJenis.Location = new Point(724, 211);
             labelJenis.Margin = new Padding(4, 0, 4, 0);
             labelJenis.Name = "labelJenis";
-            labelJenis.Size = new Size(53, 25);
+            labelJenis.Size = new Size(71, 32);
             labelJenis.TabIndex = 4;
             labelJenis.Text = "Jenis:";
             // 
             // labelIsSmarthome
             // 
             labelIsSmarthome.AutoSize = true;
-            labelIsSmarthome.Location = new Point(503, 206);
+            labelIsSmarthome.Font = new Font("Segoe UI", 12F);
+            labelIsSmarthome.Location = new Point(724, 264);
             labelIsSmarthome.Margin = new Padding(4, 0, 4, 0);
             labelIsSmarthome.Name = "labelIsSmarthome";
-            labelIsSmarthome.Size = new Size(109, 25);
+            labelIsSmarthome.Size = new Size(143, 32);
             labelIsSmarthome.TabIndex = 5;
             labelIsSmarthome.Text = "Smarthome:";
             // 
-            // buttonAddElectronicsPage
+            // addElectronicsPageButton
             // 
-            buttonAddElectronicsPage.Location = new Point(511, 267);
-            buttonAddElectronicsPage.Name = "buttonAddElectronicsPage";
-            buttonAddElectronicsPage.Size = new Size(147, 34);
-            buttonAddElectronicsPage.TabIndex = 6;
-            buttonAddElectronicsPage.Text = "Add Electronics";
-            buttonAddElectronicsPage.UseVisualStyleBackColor = true;
-            buttonAddElectronicsPage.Click += buttonAddElectronicsPage_Click;
+            addElectronicsPageButton.BackColor = Color.FromArgb(114, 199, 72);
+            addElectronicsPageButton.FlatAppearance.BorderSize = 0;
+            addElectronicsPageButton.FlatStyle = FlatStyle.Flat;
+            addElectronicsPageButton.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            addElectronicsPageButton.ForeColor = Color.White;
+            addElectronicsPageButton.Location = new Point(1414, 743);
+            addElectronicsPageButton.Name = "addElectronicsPageButton";
+            addElectronicsPageButton.Size = new Size(225, 60);
+            addElectronicsPageButton.TabIndex = 7;
+            addElectronicsPageButton.Text = "Add Electronics";
+            addElectronicsPageButton.UseVisualStyleBackColor = false;
+            addElectronicsPageButton.Click += addElectronicsPageButton_Click;
             // 
             // ShowElectronics
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1047, 638);
-            Controls.Add(buttonAddElectronicsPage);
+            ClientSize = new Size(1759, 879);
+            Controls.Add(addElectronicsPageButton);
             Controls.Add(labelIsSmarthome);
             Controls.Add(labelJenis);
             Controls.Add(labelVoltase);
             Controls.Add(labelMerk);
             Controls.Add(labelNama);
             Controls.Add(listBoxElectronics);
+            FormBorderStyle = FormBorderStyle.None;
             Margin = new Padding(4, 5, 4, 5);
             Name = "ShowElectronics";
             Text = "ShowElectronics";
@@ -133,7 +145,7 @@
             PerformLayout();
         }
 
-        private Button buttonAddElectronicsPage;
+        private ComponentControls.AuthButton addElectronicsPageButton;
     }
     #endregion
 }

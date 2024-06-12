@@ -3,48 +3,84 @@
   "WorkspaceRootPath": "C:\\Users\\RAFLI\\Downloads\\Percodingan\\C#\\electrigreenGUI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|C:\\Users\\RAFLI\\Downloads\\Percodingan\\C#\\electrigreenGUI\\electrigreen\\window\\addelectronics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\window\\addelectronics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|C:\\Users\\RAFLI\\Downloads\\Percodingan\\C#\\electrigreenGUI\\electrigreen\\window\\registerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\window\\registerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|C:\\Users\\RAFLI\\Downloads\\Percodingan\\C#\\electrigreenGUI\\electrigreen\\window\\addelectronics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\window\\addelectronics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|c:\\users\\rafli\\downloads\\percodingan\\c#\\electrigreengui\\electrigreen\\window\\addelectronics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\window\\addelectronics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|C:\\Users\\RAFLI\\Downloads\\Percodingan\\C#\\electrigreenGUI\\electrigreen\\window\\showelectronics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\window\\showelectronics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|C:\\Users\\RAFLI\\Downloads\\Percodingan\\C#\\electrigreenGUI\\electrigreen\\window\\showelectronics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|c:\\users\\rafli\\downloads\\percodingan\\c#\\electrigreengui\\electrigreen\\window\\showelectronics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\window\\showelectronics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|c:\\users\\rafli\\downloads\\percodingan\\c#\\electrigreengui\\electrigreen\\window\\showelectronics.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\window\\showelectronics.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|c:\\users\\rafli\\downloads\\percodingan\\c#\\electrigreengui\\electrigreen\\window\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\window\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|c:\\users\\rafli\\downloads\\percodingan\\c#\\electrigreengui\\electrigreen\\window\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\window\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|C:\\Users\\RAFLI\\Downloads\\Percodingan\\C#\\electrigreenGUI\\electrigreen\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|C:\\Users\\RAFLI\\Downloads\\Percodingan\\C#\\electrigreenGUI\\electrigreen\\window\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\window\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|C:\\Users\\RAFLI\\Downloads\\Percodingan\\C#\\electrigreenGUI\\electrigreen\\functional\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\functional\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|C:\\Users\\RAFLI\\Downloads\\Percodingan\\C#\\electrigreenGUI\\electrigreen\\window\\showelectronics.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\window\\showelectronics.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|C:\\Users\\RAFLI\\Downloads\\Percodingan\\C#\\electrigreenGUI\\electrigreen\\window\\registerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\window\\registerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|c:\\users\\rafli\\downloads\\percodingan\\c#\\electrigreengui\\electrigreen\\window\\homeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\window\\homeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|c:\\users\\rafli\\downloads\\percodingan\\c#\\electrigreengui\\electrigreen\\window\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\window\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|c:\\users\\rafli\\downloads\\percodingan\\c#\\electrigreengui\\electrigreen\\window\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\window\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|c:\\users\\rafli\\downloads\\percodingan\\c#\\electrigreengui\\electrigreen\\window\\artikelform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\window\\artikelform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|c:\\users\\rafli\\downloads\\percodingan\\c#\\electrigreengui\\electrigreen\\window\\targetform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\window\\targetform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\RAFLI\\Downloads\\Percodingan\\C#\\electrigreenGUI\\electrigreen\\functional\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:electrigreen\\functional\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|C:\\Users\\RAFLI\\Downloads\\Percodingan\\C#\\electrigreenGUI\\electrigreen\\window\\addelectronics.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\window\\addelectronics.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|C:\\Users\\RAFLI\\Downloads\\Percodingan\\C#\\electrigreenGUI\\electrigreen\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|C:\\Users\\RAFLI\\Downloads\\Percodingan\\C#\\electrigreenGUI\\electrigreen\\models\\electronicsaddconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\models\\electronicsaddconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|C:\\Users\\RAFLI\\Downloads\\Percodingan\\C#\\electrigreenGUI\\electrigreen\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|C:\\Users\\RAFLI\\Downloads\\Percodingan\\C#\\electrigreenGUI\\electrigreen\\functional\\mediator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\functional\\mediator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|C:\\Users\\RAFLI\\Downloads\\Percodingan\\C#\\electrigreenGUI\\electrigreen\\functional\\electronics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -57,14 +93,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|C:\\Users\\RAFLI\\Downloads\\Percodingan\\C#\\electrigreenGUI\\electrigreen\\window\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\window\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|C:\\Users\\RAFLI\\Downloads\\Percodingan\\C#\\electrigreenGUI\\electrigreen\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|C:\\Users\\RAFLI\\Downloads\\Percodingan\\C#\\electrigreenGUI\\electrigreen\\functional\\mediator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\functional\\mediator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,7 +102,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -86,44 +114,143 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RegisterForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\RAFLI\\Downloads\\Percodingan\\C#\\electrigreenGUI\\electrigreen\\Window\\RegisterForm.Designer.cs",
-              "RelativeDocumentMoniker": "electrigreen\\Window\\RegisterForm.Designer.cs",
-              "ToolTip": "C:\\Users\\RAFLI\\Downloads\\Percodingan\\C#\\electrigreenGUI\\electrigreen\\Window\\RegisterForm.Designer.cs",
-              "RelativeToolTip": "electrigreen\\Window\\RegisterForm.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAALEAAAAaAAAA",
+              "DocumentIndex": 0,
+              "Title": "AddElectronics.cs",
+              "DocumentMoniker": "C:\\Users\\RAFLI\\Downloads\\Percodingan\\C#\\electrigreenGUI\\electrigreen\\Window\\AddElectronics.cs",
+              "RelativeDocumentMoniker": "electrigreen\\Window\\AddElectronics.cs",
+              "ToolTip": "C:\\Users\\RAFLI\\Downloads\\Percodingan\\C#\\electrigreenGUI\\electrigreen\\Window\\AddElectronics.cs",
+              "RelativeToolTip": "electrigreen\\Window\\AddElectronics.cs",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAiwG4AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T00:14:08.604Z",
+              "WhenOpened": "2024-06-12T11:25:23.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\RAFLI\\Downloads\\Percodingan\\C#\\electrigreenGUI\\electrigreen\\Window\\MainForm.cs",
+              "RelativeDocumentMoniker": "electrigreen\\Window\\MainForm.cs",
+              "ToolTip": "C:\\Users\\RAFLI\\Downloads\\Percodingan\\C#\\electrigreenGUI\\electrigreen\\Window\\MainForm.cs",
+              "RelativeToolTip": "electrigreen\\Window\\MainForm.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAiwDEAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T11:56:02.989Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\RAFLI\\Downloads\\Percodingan\\C#\\electrigreenGUI\\electrigreen\\Window\\MainForm.cs",
+              "RelativeDocumentMoniker": "electrigreen\\Window\\MainForm.cs",
+              "ToolTip": "C:\\Users\\RAFLI\\Downloads\\Percodingan\\C#\\electrigreenGUI\\electrigreen\\Window\\MainForm.cs [Design]",
+              "RelativeToolTip": "electrigreen\\Window\\MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T11:55:22.337Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ShowElectronics.cs [Design]",
               "DocumentMoniker": "C:\\Users\\RAFLI\\Downloads\\Percodingan\\C#\\electrigreenGUI\\electrigreen\\Window\\ShowElectronics.cs",
               "RelativeDocumentMoniker": "electrigreen\\Window\\ShowElectronics.cs",
               "ToolTip": "C:\\Users\\RAFLI\\Downloads\\Percodingan\\C#\\electrigreenGUI\\electrigreen\\Window\\ShowElectronics.cs [Design]",
               "RelativeToolTip": "electrigreen\\Window\\ShowElectronics.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T10:27:52.775Z",
+              "WhenOpened": "2024-06-12T11:50:38.671Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 12,
+              "Title": "LoginForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\RAFLI\\Downloads\\Percodingan\\C#\\electrigreenGUI\\electrigreen\\Window\\LoginForm.Designer.cs",
+              "RelativeDocumentMoniker": "electrigreen\\Window\\LoginForm.Designer.cs",
+              "ToolTip": "C:\\Users\\RAFLI\\Downloads\\Percodingan\\C#\\electrigreenGUI\\electrigreen\\Window\\LoginForm.Designer.cs",
+              "RelativeToolTip": "electrigreen\\Window\\LoginForm.Designer.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwKwAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T11:33:18.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LoginForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\RAFLI\\Downloads\\Percodingan\\C#\\electrigreenGUI\\electrigreen\\Window\\LoginForm.cs",
+              "RelativeDocumentMoniker": "electrigreen\\Window\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\RAFLI\\Downloads\\Percodingan\\C#\\electrigreenGUI\\electrigreen\\Window\\LoginForm.cs [Design]",
+              "RelativeToolTip": "electrigreen\\Window\\LoginForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T11:33:10.365Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ArtikelForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\RAFLI\\Downloads\\Percodingan\\C#\\electrigreenGUI\\electrigreen\\Window\\ArtikelForm.cs",
+              "RelativeDocumentMoniker": "electrigreen\\Window\\ArtikelForm.cs",
+              "ToolTip": "C:\\Users\\RAFLI\\Downloads\\Percodingan\\C#\\electrigreenGUI\\electrigreen\\Window\\ArtikelForm.cs [Design]",
+              "RelativeToolTip": "electrigreen\\Window\\ArtikelForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T11:33:08.492Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HomeForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\RAFLI\\Downloads\\Percodingan\\C#\\electrigreenGUI\\electrigreen\\Window\\HomeForm.cs",
+              "RelativeDocumentMoniker": "electrigreen\\Window\\HomeForm.cs",
+              "ToolTip": "C:\\Users\\RAFLI\\Downloads\\Percodingan\\C#\\electrigreenGUI\\electrigreen\\Window\\HomeForm.cs [Design]",
+              "RelativeToolTip": "electrigreen\\Window\\HomeForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T11:33:06.887Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TargetForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\RAFLI\\Downloads\\Percodingan\\C#\\electrigreenGUI\\electrigreen\\Window\\TargetForm.cs",
+              "RelativeDocumentMoniker": "electrigreen\\Window\\TargetForm.cs",
+              "ToolTip": "C:\\Users\\RAFLI\\Downloads\\Percodingan\\C#\\electrigreenGUI\\electrigreen\\Window\\TargetForm.cs [Design]",
+              "RelativeToolTip": "electrigreen\\Window\\TargetForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T11:33:04.75Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RegisterForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\RAFLI\\Downloads\\Percodingan\\C#\\electrigreenGUI\\electrigreen\\Window\\RegisterForm.Designer.cs",
+              "RelativeDocumentMoniker": "electrigreen\\Window\\RegisterForm.Designer.cs",
+              "ToolTip": "C:\\Users\\RAFLI\\Downloads\\Percodingan\\C#\\electrigreenGUI\\electrigreen\\Window\\RegisterForm.Designer.cs",
+              "RelativeToolTip": "electrigreen\\Window\\RegisterForm.Designer.cs",
+              "ViewState": "AQIAAMYAAAAAAAAAAAAYwBYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T11:25:23.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "AddElectronics.cs [Design]",
               "DocumentMoniker": "C:\\Users\\RAFLI\\Downloads\\Percodingan\\C#\\electrigreenGUI\\electrigreen\\Window\\AddElectronics.cs",
               "RelativeDocumentMoniker": "electrigreen\\Window\\AddElectronics.cs",
               "ToolTip": "C:\\Users\\RAFLI\\Downloads\\Percodingan\\C#\\electrigreenGUI\\electrigreen\\Window\\AddElectronics.cs [Design]",
               "RelativeToolTip": "electrigreen\\Window\\AddElectronics.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T10:14:40.831Z",
+              "WhenOpened": "2024-06-12T11:25:23.857Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 15,
               "Title": "Register.cs",
               "DocumentMoniker": "C:\\Users\\RAFLI\\Downloads\\Percodingan\\C#\\electrigreenGUI\\electrigreen\\Functional\\Register.cs",
               "RelativeDocumentMoniker": "electrigreen\\Functional\\Register.cs",
@@ -131,11 +258,11 @@
               "RelativeToolTip": "electrigreen\\Functional\\Register.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T10:14:13.313Z"
+              "WhenOpened": "2024-06-12T11:25:23.971Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 16,
               "Title": "AddElectronics.Designer.cs",
               "DocumentMoniker": "C:\\Users\\RAFLI\\Downloads\\Percodingan\\C#\\electrigreenGUI\\electrigreen\\Window\\AddElectronics.Designer.cs",
               "RelativeDocumentMoniker": "electrigreen\\Window\\AddElectronics.Designer.cs",
@@ -143,38 +270,38 @@
               "RelativeToolTip": "electrigreen\\Window\\AddElectronics.Designer.cs",
               "ViewState": "AQIAAJAAAAAAAAAAAAAYwJgAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T09:56:55.418Z",
+              "WhenOpened": "2024-06-12T11:25:23.972Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "ShowElectronics.Designer.cs",
               "DocumentMoniker": "C:\\Users\\RAFLI\\Downloads\\Percodingan\\C#\\electrigreenGUI\\electrigreen\\Window\\ShowElectronics.Designer.cs",
               "RelativeDocumentMoniker": "electrigreen\\Window\\ShowElectronics.Designer.cs",
               "ToolTip": "C:\\Users\\RAFLI\\Downloads\\Percodingan\\C#\\electrigreenGUI\\electrigreen\\Window\\ShowElectronics.Designer.cs",
               "RelativeToolTip": "electrigreen\\Window\\ShowElectronics.Designer.cs",
-              "ViewState": "AQIAAFIAAAAAAAAAAAAQwFYAAAAZAAAA",
+              "ViewState": "AQIAAGQAAAAAAAAAAAAmwHAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T09:52:43.047Z",
+              "WhenOpened": "2024-06-12T11:25:23.973Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "ShowElectronics.cs",
               "DocumentMoniker": "C:\\Users\\RAFLI\\Downloads\\Percodingan\\C#\\electrigreenGUI\\electrigreen\\Window\\ShowElectronics.cs",
               "RelativeDocumentMoniker": "electrigreen\\Window\\ShowElectronics.cs",
               "ToolTip": "C:\\Users\\RAFLI\\Downloads\\Percodingan\\C#\\electrigreenGUI\\electrigreen\\Window\\ShowElectronics.cs",
               "RelativeToolTip": "electrigreen\\Window\\ShowElectronics.cs",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAYwDwAAAAcAAAA",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAiwEMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T09:54:31.284Z",
+              "WhenOpened": "2024-06-12T11:25:23.973Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\RAFLI\\Downloads\\Percodingan\\C#\\electrigreenGUI\\electrigreen\\Models\\User.cs",
               "RelativeDocumentMoniker": "electrigreen\\Models\\User.cs",
@@ -182,11 +309,11 @@
               "RelativeToolTip": "electrigreen\\Models\\User.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T08:33:25.641Z"
+              "WhenOpened": "2024-06-12T11:25:23.974Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 18,
               "Title": "ElectronicsAddConfig.cs",
               "DocumentMoniker": "C:\\Users\\RAFLI\\Downloads\\Percodingan\\C#\\electrigreenGUI\\electrigreen\\Models\\ElectronicsAddConfig.cs",
               "RelativeDocumentMoniker": "electrigreen\\Models\\ElectronicsAddConfig.cs",
@@ -194,11 +321,11 @@
               "RelativeToolTip": "electrigreen\\Models\\ElectronicsAddConfig.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAIwAsAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T03:47:05.059Z"
+              "WhenOpened": "2024-06-12T11:25:23.975Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "Mediator.cs",
               "DocumentMoniker": "C:\\Users\\RAFLI\\Downloads\\Percodingan\\C#\\electrigreenGUI\\electrigreen\\Functional\\Mediator.cs",
               "RelativeDocumentMoniker": "electrigreen\\Functional\\Mediator.cs",
@@ -206,11 +333,11 @@
               "RelativeToolTip": "electrigreen\\Functional\\Mediator.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAcwAsAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T03:41:52.161Z"
+              "WhenOpened": "2024-06-12T11:25:23.976Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 20,
               "Title": "Electronics.cs",
               "DocumentMoniker": "C:\\Users\\RAFLI\\Downloads\\Percodingan\\C#\\electrigreenGUI\\electrigreen\\Functional\\Electronics.cs",
               "RelativeDocumentMoniker": "electrigreen\\Functional\\Electronics.cs",
@@ -218,24 +345,11 @@
               "RelativeToolTip": "electrigreen\\Functional\\Electronics.cs",
               "ViewState": "AQIAAGUAAAAAAAAAAAAUwBEAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T03:24:11.827Z"
+              "WhenOpened": "2024-06-12T11:25:23.976Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AddElectronics.cs",
-              "DocumentMoniker": "C:\\Users\\RAFLI\\Downloads\\Percodingan\\C#\\electrigreenGUI\\electrigreen\\Window\\AddElectronics.cs",
-              "RelativeDocumentMoniker": "electrigreen\\Window\\AddElectronics.cs",
-              "ToolTip": "C:\\Users\\RAFLI\\Downloads\\Percodingan\\C#\\electrigreenGUI\\electrigreen\\Window\\AddElectronics.cs",
-              "RelativeToolTip": "electrigreen\\Window\\AddElectronics.cs",
-              "ViewState": "AQIAAHQAAAAAAAAAAAAnwIIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T03:18:38.208Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 21,
               "Title": "ElectronicsConfig.cs",
               "DocumentMoniker": "C:\\Users\\RAFLI\\Downloads\\Percodingan\\C#\\electrigreenGUI\\electrigreen\\Functional\\ElectronicsConfig.cs",
               "RelativeDocumentMoniker": "electrigreen\\Functional\\ElectronicsConfig.cs",
@@ -243,11 +357,11 @@
               "RelativeToolTip": "electrigreen\\Functional\\ElectronicsConfig.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T03:25:57.273Z"
+              "WhenOpened": "2024-06-12T11:25:23.978Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 22,
               "Title": "RegisterForm.cs",
               "DocumentMoniker": "C:\\Users\\RAFLI\\Downloads\\Percodingan\\C#\\electrigreenGUI\\electrigreen\\Window\\RegisterForm.cs",
               "RelativeDocumentMoniker": "electrigreen\\Window\\RegisterForm.cs",
@@ -255,30 +369,33 @@
               "RelativeToolTip": "electrigreen\\Window\\RegisterForm.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T10:53:05.623Z"
+              "WhenOpened": "2024-06-12T11:25:23.979Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\RAFLI\\Downloads\\Percodingan\\C#\\electrigreenGUI\\electrigreen\\Program.cs",
               "RelativeDocumentMoniker": "electrigreen\\Program.cs",
               "ToolTip": "C:\\Users\\RAFLI\\Downloads\\Percodingan\\C#\\electrigreenGUI\\electrigreen\\Program.cs",
               "RelativeToolTip": "electrigreen\\Program.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAgwBMAAAABAAAA",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAgwAwAAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T10:52:37.99Z"
+              "WhenOpened": "2024-06-12T11:25:23.98Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "RegisterForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\RAFLI\\Downloads\\Percodingan\\C#\\electrigreenGUI\\electrigreen\\Window\\RegisterForm.cs",
               "RelativeDocumentMoniker": "electrigreen\\Window\\RegisterForm.cs",
               "ToolTip": "C:\\Users\\RAFLI\\Downloads\\Percodingan\\C#\\electrigreenGUI\\electrigreen\\Window\\RegisterForm.cs [Design]",
               "RelativeToolTip": "electrigreen\\Window\\RegisterForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T10:35:35.158Z"
+              "WhenOpened": "2024-06-12T11:25:23.98Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
