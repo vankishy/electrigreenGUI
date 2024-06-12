@@ -16,14 +16,14 @@ namespace electrigreen.Window
     public partial class AddElectronics : Form
     {
         private ElectronicsMediator mediator;
-
+        private ShowElectronics showElectronics;
         private List<Electronics> addedElectronics = new List<Electronics>();
 
-        public AddElectronics()
+        public AddElectronics(ShowElectronics showElectronics)
         {
             InitializeComponent();
             mediator = new ElectronicsMediator();
-
+            this.showElectronics = showElectronics;
             addedElectronics = ReadElectronicsFromJson();
         }
 
@@ -53,7 +53,7 @@ namespace electrigreen.Window
             NotifyPerangkatAdded(nama, isSmarthome, jenis);
             ClearFormFields();
             WriteElectronicsToJson();
-            ShowElectronics.LoadElectronicsFromJson();
+            showElectronics.RefreshList();
         }
 
         private bool checkValiditasInput(string nama, string merk, string voltase, string jenis)

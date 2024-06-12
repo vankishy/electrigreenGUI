@@ -14,8 +14,8 @@ namespace electrigreen.Window
 {
     public partial class ShowElectronics : Form
     {
-        private static  List<Electronics> addedElectronics;
-        private static string jsonFilePath = "ElectronicsData.json";
+        private List<Electronics> addedElectronics;
+        private string jsonFilePath = "ElectronicsData.json";
 
         public ShowElectronics()
         {
@@ -29,7 +29,7 @@ namespace electrigreen.Window
             InitializeListBox();
         }
 
-        public static void LoadElectronicsFromJson()
+        public void LoadElectronicsFromJson()
         {
             // Method ini mengambil data dari file json sebagai list Electronics dengan nama "addedElectronics".
             // Jika gagal dalam mengambil data, maka akan melempar exception berupa message ke console.
@@ -70,9 +70,14 @@ namespace electrigreen.Window
         private void addElectronicsPageButton_Click(object sender, EventArgs e)
         {
             // Masuk ke halaman add electronics sebagai dialog.
-            AddElectronics addElectronicsPage = new AddElectronics();
+            AddElectronics addElectronicsPage = new AddElectronics(this);
             addElectronicsPage.ShowDialog();
             LoadElectronicsFromJson();
+        }
+        public void RefreshList()
+        {
+            LoadElectronicsFromJson();
+            InitializeListBox();
         }
     }
 }
