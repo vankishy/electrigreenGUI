@@ -13,8 +13,6 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 
-
-//Author : Reinhard Situmeang
 namespace electrigreen.Window
 {
     public partial class RegisterForm : Form
@@ -24,19 +22,22 @@ namespace electrigreen.Window
             InitializeComponent();
         }
 
-        public static bool isValidName(string nama)
+        // Name string check character
+        public static bool IsValidName(string nama)
         {
             Regex check = new Regex("^[a-zA-Z]+$");
             return check.IsMatch(nama);
         }
 
-        public bool isValidEmail(string email)
+        // Email string check character
+        public bool IsValidEmail(string email)
         {
             string pattern = @"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.(com|co\.id|ac\.id|org)$";
             Regex check = new Regex(pattern);
             return check.IsMatch(email);
         }
 
+        // Don't have account Action
         private void loginLinkBtn_Click(object sender, EventArgs e)
         {
             this.Visible = false;
@@ -44,6 +45,7 @@ namespace electrigreen.Window
             loginForm.Show();
         }
 
+        // Register Button action
         private void authButton1_Click(object sender, EventArgs e)
         {
             string nama = authTextBox1.Text;
@@ -51,7 +53,8 @@ namespace electrigreen.Window
             string password = authTextBox3.Text;
             string passConfirm = authTextBox4.Text;
 
-            if (!isValidName(nama))
+            // String validation
+            if (!IsValidName(nama))
             {
                 if (string.IsNullOrWhiteSpace(nama))
                 {
@@ -59,10 +62,12 @@ namespace electrigreen.Window
                     authTextBox1.BorderColor = Color.Red;
                 }
                 else
+                {
                     label6.Text = "Nama hanya terdiri dari huruf";
-                authTextBox1.BorderColor = Color.Red;
+                    authTextBox1.BorderColor = Color.Red;
+                }                   
             }
-            else if (isValidName(email))
+            else if (IsValidName(email))
             {
                 if (string.IsNullOrWhiteSpace(email))
                 {
@@ -70,8 +75,10 @@ namespace electrigreen.Window
                     authTextBox2.BorderColor = Color.Red;
                 }
                 else
+                {
                     label6.Text = "Format Email tidak valid";
-                authTextBox2.BorderColor = Color.Red;
+                    authTextBox2.BorderColor = Color.Red;
+                }
             }
             else if (password != passConfirm)
             {
@@ -81,9 +88,11 @@ namespace electrigreen.Window
                     authTextBox3.BorderColor = Color.Red;
                 }
                 else
+                {
                     label6.Text = "Periksa kembali password anda";
                     authTextBox3.BorderColor = Color.Red;
                     authTextBox4.BorderColor = Color.Red;
+                }                   
             }
             else if (string.IsNullOrWhiteSpace(passConfirm))
             {
@@ -95,7 +104,8 @@ namespace electrigreen.Window
                 string passHash = BCrypt.Net.BCrypt.HashPassword(password, 13); // Hashing password
                 User createUser = new User { Nama = nama, Email = email, Password = passHash };
                 AuthenticationMethod register = new AuthenticationMethod();
-                register.registerAction(createUser);
+                register.RegisterAction(createUser);
+
                 this.Visible = false;
                 LoginForm loginForm = new LoginForm();
                 loginForm.Show();

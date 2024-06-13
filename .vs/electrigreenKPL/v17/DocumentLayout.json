@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\SWIFT\\Documents\\electrigreen-KPL\\electrigreenKPL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|C:\\Users\\SWIFT\\Documents\\electrigreen-KPL\\electrigreenKPL\\electrigreen\\window\\homeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\window\\homeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|c:\\users\\swift\\documents\\electrigreen-kpl\\electrigreenkpl\\electrigreen\\functional\\authenticationmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\functional\\authenticationmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|C:\\Users\\SWIFT\\Documents\\electrigreen-KPL\\electrigreenKPL\\electrigreen\\window\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\window\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|c:\\users\\swift\\documents\\electrigreen-kpl\\electrigreenkpl\\electrigreen\\componentcontrols\\myrectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\componentcontrols\\myrectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|c:\\users\\swift\\documents\\electrigreen-kpl\\electrigreenkpl\\electrigreen\\componentcontrols\\panelelectrigreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\componentcontrols\\panelelectrigreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|c:\\users\\swift\\documents\\electrigreen-kpl\\electrigreenkpl\\electrigreen\\componentcontrols\\trans.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\componentcontrols\\trans.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|c:\\users\\swift\\documents\\electrigreen-kpl\\electrigreenkpl\\electrigreen\\componentcontrols\\authbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|c:\\users\\swift\\documents\\electrigreen-kpl\\electrigreenkpl\\electrigreen\\componentcontrols\\authtextbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\componentcontrols\\authtextbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|c:\\users\\swift\\documents\\electrigreen-kpl\\electrigreenkpl\\electrigreen\\componentcontrols\\panelelectrigreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\componentcontrols\\panelelectrigreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,68 +34,85 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AuthButton.cs",
-              "DocumentMoniker": "C:\\Users\\SWIFT\\Documents\\electrigreen-KPL\\electrigreenKPL\\electrigreen\\ComponentControls\\AuthButton.cs",
-              "RelativeDocumentMoniker": "electrigreen\\ComponentControls\\AuthButton.cs",
-              "ToolTip": "C:\\Users\\SWIFT\\Documents\\electrigreen-KPL\\electrigreenKPL\\electrigreen\\ComponentControls\\AuthButton.cs",
-              "RelativeToolTip": "electrigreen\\ComponentControls\\AuthButton.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAoAAAA",
+              "DocumentIndex": 0,
+              "Title": "AuthenticationMethod.cs",
+              "DocumentMoniker": "C:\\Users\\SWIFT\\Documents\\electrigreen-KPL\\electrigreenKPL\\electrigreen\\Functional\\AuthenticationMethod.cs",
+              "RelativeDocumentMoniker": "electrigreen\\Functional\\AuthenticationMethod.cs",
+              "ToolTip": "C:\\Users\\SWIFT\\Documents\\electrigreen-KPL\\electrigreenKPL\\electrigreen\\Functional\\AuthenticationMethod.cs",
+              "RelativeToolTip": "electrigreen\\Functional\\AuthenticationMethod.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAoAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T15:55:37.989Z",
+              "WhenOpened": "2024-06-13T11:31:32.639Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AuthTextBox.cs",
-              "DocumentMoniker": "C:\\Users\\SWIFT\\Documents\\electrigreen-KPL\\electrigreenKPL\\electrigreen\\ComponentControls\\AuthTextBox.cs",
-              "RelativeDocumentMoniker": "electrigreen\\ComponentControls\\AuthTextBox.cs",
-              "ToolTip": "C:\\Users\\SWIFT\\Documents\\electrigreen-KPL\\electrigreenKPL\\electrigreen\\ComponentControls\\AuthTextBox.cs",
-              "RelativeToolTip": "electrigreen\\ComponentControls\\AuthTextBox.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Title": "Trans.cs",
+              "DocumentMoniker": "C:\\Users\\SWIFT\\Documents\\electrigreen-KPL\\electrigreenKPL\\electrigreen\\ComponentControls\\Trans.cs",
+              "RelativeDocumentMoniker": "electrigreen\\ComponentControls\\Trans.cs",
+              "ToolTip": "C:\\Users\\SWIFT\\Documents\\electrigreen-KPL\\electrigreenKPL\\electrigreen\\ComponentControls\\Trans.cs",
+              "RelativeToolTip": "electrigreen\\ComponentControls\\Trans.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T15:55:25.839Z"
+              "WhenOpened": "2024-06-13T11:03:26.374Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "PanelElectrigreen.cs",
               "DocumentMoniker": "C:\\Users\\SWIFT\\Documents\\electrigreen-KPL\\electrigreenKPL\\electrigreen\\ComponentControls\\PanelElectrigreen.cs",
               "RelativeDocumentMoniker": "electrigreen\\ComponentControls\\PanelElectrigreen.cs",
               "ToolTip": "C:\\Users\\SWIFT\\Documents\\electrigreen-KPL\\electrigreenKPL\\electrigreen\\ComponentControls\\PanelElectrigreen.cs",
               "RelativeToolTip": "electrigreen\\ComponentControls\\PanelElectrigreen.cs",
-              "ViewState": "AQIAAEIAAAAAAAAAAAAUwFsAAAAnAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T14:21:35.242Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HomeForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\SWIFT\\Documents\\electrigreen-KPL\\electrigreenKPL\\electrigreen\\Window\\HomeForm.cs",
-              "RelativeDocumentMoniker": "electrigreen\\Window\\HomeForm.cs",
-              "ToolTip": "C:\\Users\\SWIFT\\Documents\\electrigreen-KPL\\electrigreenKPL\\electrigreen\\Window\\HomeForm.cs [Design]",
-              "RelativeToolTip": "electrigreen\\Window\\HomeForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T08:46:04.027Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-06-13T11:01:44.668Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MainForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\SWIFT\\Documents\\electrigreen-KPL\\electrigreenKPL\\electrigreen\\Window\\MainForm.cs",
-              "RelativeDocumentMoniker": "electrigreen\\Window\\MainForm.cs",
-              "ToolTip": "C:\\Users\\SWIFT\\Documents\\electrigreen-KPL\\electrigreenKPL\\electrigreen\\Window\\MainForm.cs [Design]",
-              "RelativeToolTip": "electrigreen\\Window\\MainForm.cs [Design]",
+              "Title": "MyRectangle.cs",
+              "DocumentMoniker": "C:\\Users\\SWIFT\\Documents\\electrigreen-KPL\\electrigreenKPL\\electrigreen\\ComponentControls\\MyRectangle.cs",
+              "RelativeDocumentMoniker": "electrigreen\\ComponentControls\\MyRectangle.cs",
+              "ToolTip": "C:\\Users\\SWIFT\\Documents\\electrigreen-KPL\\electrigreenKPL\\electrigreen\\ComponentControls\\MyRectangle.cs",
+              "RelativeToolTip": "electrigreen\\ComponentControls\\MyRectangle.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T08:30:54.867Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-06-13T11:01:42.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthTextBox.cs",
+              "DocumentMoniker": "C:\\Users\\SWIFT\\Documents\\electrigreen-KPL\\electrigreenKPL\\electrigreen\\ComponentControls\\AuthTextBox.cs",
+              "RelativeDocumentMoniker": "electrigreen\\ComponentControls\\AuthTextBox.cs",
+              "ToolTip": "C:\\Users\\SWIFT\\Documents\\electrigreen-KPL\\electrigreenKPL\\electrigreen\\ComponentControls\\AuthTextBox.cs",
+              "RelativeToolTip": "electrigreen\\ComponentControls\\AuthTextBox.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T10:49:35.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthButton.cs",
+              "DocumentMoniker": "C:\\Users\\SWIFT\\Documents\\electrigreen-KPL\\electrigreenKPL\\electrigreen\\ComponentControls\\AuthButton.cs",
+              "RelativeDocumentMoniker": "electrigreen\\ComponentControls\\AuthButton.cs",
+              "ToolTip": "C:\\Users\\SWIFT\\Documents\\electrigreen-KPL\\electrigreenKPL\\electrigreen\\ComponentControls\\AuthButton.cs",
+              "RelativeToolTip": "electrigreen\\ComponentControls\\AuthButton.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAwEkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T10:46:01.595Z",
+              "EditorCaption": ""
             }
           ]
         }

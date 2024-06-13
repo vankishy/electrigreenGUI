@@ -5,6 +5,7 @@ namespace electrigreen.ComponentControls
 {
     internal class Trans
     {
+        // Set Transparent Rectangle
         public static void MakeTransparent(Control control, Graphics g)
         {
            Control parent = control.Parent;
