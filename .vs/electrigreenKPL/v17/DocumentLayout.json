@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "D:\\TUGAS BESAR\\electrigreenGUI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|D:\\TUGAS BESAR\\electrigreenGUI\\electrigreen\\window\\isiartikel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|d:\\tugas besar\\electrigreengui\\electrigreen\\window\\isiartikel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\window\\isiartikel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|d:\\tugas besar\\electrigreengui\\electrigreen\\window\\artikel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\window\\artikel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|D:\\TUGAS BESAR\\electrigreenGUI\\electrigreen\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|D:\\TUGAS BESAR\\electrigreenGUI\\electrigreen\\window\\isiartikel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\window\\isiartikel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|D:\\TUGAS BESAR\\electrigreenGUI\\electrigreen\\window\\artikel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\window\\artikel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|D:\\TUGAS BESAR\\electrigreenGUI\\electrigreen\\window\\artikel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\window\\artikel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|D:\\TUGAS BESAR\\electrigreenGUI\\electrigreen\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|D:\\TUGAS BESAR\\electrigreenGUI\\electrigreen\\window\\artikel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\window\\artikel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +34,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\TUGAS BESAR\\electrigreenGUI\\electrigreen\\Program.cs",
               "RelativeDocumentMoniker": "electrigreen\\Program.cs",
@@ -42,7 +42,7 @@
               "RelativeToolTip": "electrigreen\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T05:36:58.365Z"
+              "WhenOpened": "2024-06-13T10:13:25.014Z"
             },
             {
               "$type": "Document",
@@ -52,9 +52,9 @@
               "RelativeDocumentMoniker": "electrigreen\\Window\\IsiArtikel.cs",
               "ToolTip": "D:\\TUGAS BESAR\\electrigreenGUI\\electrigreen\\Window\\IsiArtikel.cs",
               "RelativeToolTip": "electrigreen\\Window\\IsiArtikel.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAwD0AAAALAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAwB0AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T15:53:57.315Z",
+              "WhenOpened": "2024-06-13T10:13:25.467Z",
               "EditorCaption": ""
             },
             {
@@ -66,32 +66,30 @@
               "ToolTip": "D:\\TUGAS BESAR\\electrigreenGUI\\electrigreen\\Window\\IsiArtikel.cs [Design]",
               "RelativeToolTip": "electrigreen\\Window\\IsiArtikel.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T16:29:12.263Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-06-13T10:13:26.058Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Artikel.cs",
               "DocumentMoniker": "D:\\TUGAS BESAR\\electrigreenGUI\\electrigreen\\Window\\Artikel.cs",
               "RelativeDocumentMoniker": "electrigreen\\Window\\Artikel.cs",
               "ToolTip": "D:\\TUGAS BESAR\\electrigreenGUI\\electrigreen\\Window\\Artikel.cs",
               "RelativeToolTip": "electrigreen\\Window\\Artikel.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAA3wCkAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T14:55:44.724Z",
-              "EditorCaption": ""
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-06-13T10:13:26.059Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Artikel.cs [Design]",
               "DocumentMoniker": "D:\\TUGAS BESAR\\electrigreenGUI\\electrigreen\\Window\\Artikel.cs",
               "RelativeDocumentMoniker": "electrigreen\\Window\\Artikel.cs",
               "ToolTip": "D:\\TUGAS BESAR\\electrigreenGUI\\electrigreen\\Window\\Artikel.cs [Design]",
               "RelativeToolTip": "electrigreen\\Window\\Artikel.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T09:51:06.146Z"
+              "WhenOpened": "2024-06-13T10:13:26.06Z"
             }
           ]
         }

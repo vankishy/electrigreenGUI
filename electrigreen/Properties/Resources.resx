@@ -117,4 +117,41 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Home (Off)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Home (Off).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Target Arrow (Off) 28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Target Arrow (Off) 28.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lightbulb Filament (Off) 28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Lightbulb Filament (Off) 28.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Target Arrow (On) 28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Target Arrow (On) 28.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Target Arrow (On) 281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Target Arrow (On) 28.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Home (On) 28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Home (On) 28.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Target Arrow (Off) 281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Target Arrow (Off) 28.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lightbulb Filament (On) 28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Lightbulb Filament (On) 28.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Home (Off) 28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Home (Off) 28.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Feed (Off) 28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Feed (Off) 28.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Feed (On) 28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Feed (On) 28.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>
