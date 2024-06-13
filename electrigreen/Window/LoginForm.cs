@@ -37,7 +37,14 @@ namespace electrigreen.Window
                 MessageBox.Show("Format email tidak valid."); // Menampilkan pesan kesalahan jika email tidak valid
                 return;
             }
-
+            //Validasi format email
+            if (!authen.IsValidPassword(password))
+            {
+                MessageBox.Show("Password harus memiliki panjang 8-15 karakter," + 
+                    "\ndiawali dengan huruf besar, dan mengandung huruf kecil," + 
+                    "\nangka, serta simbol.!"); // Menampilkan pesan kesalahan jika email tidak valid
+                return;
+            }
             try
             {
                 // Memverifikasi pengguna secara asinkron

@@ -37,6 +37,34 @@ namespace electrigreen.Window
             return check.IsMatch(email);
         }
 
+        public bool IsValidPassword(string password)
+        {
+            // Panjang password harus antara 8 hingga 15 karakter
+            if (password.Length < 8 || password.Length > 15)
+            {
+                return false;
+            }
+
+            // Pola regex untuk memvalidasi password
+            // ^              : Awal string
+            // (?=.*[A-Z])    : Harus mengandung setidaknya satu huruf besar
+            // (?=.*[!@#$%^&*(),.?":{}|<>]) : Harus mengandung setidaknya satu simbol
+            // (?=.*[0-9])    : Harus mengandung setidaknya satu angka
+            // (?=.*[a-z])    : Harus mengandung setidaknya satu huruf kecil
+            // .{7,14}        : Harus memiliki panjang 7 hingga 14 karakter (karena karakter pertama sudah diperiksa secara terpisah)
+            // $              : Akhir string
+            string pattern = @"^(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*(),.?""':{}|<>]).{7,14}$";
+
+            // Periksa apakah karakter pertama adalah huruf besar
+            if (!char.IsUpper(password[0]))
+            {
+                return false;
+            }
+
+            // Gunakan Regex untuk memvalidasi sisa password
+            return Regex.IsMatch(password.Substring(1), pattern);
+        }
+
         private void loginLinkBtn_Click(object sender, EventArgs e)
         {
             this.Visible = false;
@@ -59,8 +87,10 @@ namespace electrigreen.Window
                     authTextBox1.BorderColor = Color.Red;
                 }
                 else
+                {
                     label6.Text = "Nama hanya terdiri dari huruf";
-                authTextBox1.BorderColor = Color.Red;
+                    authTextBox1.BorderColor = Color.Red;
+                }
             }
             else if (isValidName(email))
             {
@@ -71,7 +101,7 @@ namespace electrigreen.Window
                 }
                 else
                     label6.Text = "Format Email tidak valid";
-                authTextBox2.BorderColor = Color.Red;
+                    authTextBox2.BorderColor = Color.Red;
             }
             else if (password != passConfirm)
             {
@@ -88,6 +118,11 @@ namespace electrigreen.Window
             else if (string.IsNullOrWhiteSpace(passConfirm))
             {
                 label6.Text = "Konfirmasi Password tidak boleh kosong!";
+                authTextBox4.BorderColor = Color.Red;
+            }
+            else if (!IsValidPassword(password))
+            {
+                label6.Text = "Password harus memiliki panjang 8-15 karakter," + "\ndiawali dengan huruf besar, dan mengandung huruf kecil," + "\nangka, serta simbol.!";
                 authTextBox4.BorderColor = Color.Red;
             }
             else

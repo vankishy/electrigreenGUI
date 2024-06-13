@@ -92,8 +92,36 @@ namespace electrigreen.Core
         // Metode untuk memvalidasi format email
         public bool IsValidEmail(string email)
         {
-            string emailPattern = @"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$";
+            string emailPattern = @"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.(com|co\.id|ac\.id|org)$";
             return Regex.IsMatch(email, emailPattern);
+        }
+
+        public bool IsValidPassword(string password)
+        {
+            // Panjang password harus antara 8 hingga 15 karakter
+            if (password.Length < 8 || password.Length > 15)
+            {
+                return false;
+            }
+
+            // Pola regex untuk memvalidasi password
+            // ^              : Awal string
+            // (?=.*[A-Z])    : Harus mengandung setidaknya satu huruf besar
+            // (?=.*[!@#$%^&*(),.?":{}|<>]) : Harus mengandung setidaknya satu simbol
+            // (?=.*[0-9])    : Harus mengandung setidaknya satu angka
+            // (?=.*[a-z])    : Harus mengandung setidaknya satu huruf kecil
+            // .{7,14}        : Harus memiliki panjang 7 hingga 14 karakter (karena karakter pertama sudah diperiksa secara terpisah)
+            // $              : Akhir string
+            string pattern = @"^(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*(),.?""':{}|<>]).{7,14}$";
+
+            // Periksa apakah karakter pertama adalah huruf besar
+            if (!char.IsUpper(password[0]))
+            {
+                return false;
+            }
+
+            // Gunakan Regex untuk memvalidasi sisa password
+            return Regex.IsMatch(password.Substring(1), pattern);
         }
     }
 }
