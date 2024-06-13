@@ -59,7 +59,12 @@ namespace electrigreen.Window
 
         private void richTextBox1_TextChanged(object sender, EventArgs e)
         {
-           
+
+        }
+
+        private void ISIANARTIKEL_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

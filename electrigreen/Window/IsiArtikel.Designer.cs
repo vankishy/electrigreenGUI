@@ -33,19 +33,22 @@
             // 
             // ISIANARTIKEL
             // 
-            ISIANARTIKEL.Location = new Point(117, 48);
+            ISIANARTIKEL.Location = new Point(123, 47);
+            ISIANARTIKEL.Margin = new Padding(2);
             ISIANARTIKEL.Name = "ISIANARTIKEL";
-            ISIANARTIKEL.Size = new Size(892, 596);
+            ISIANARTIKEL.Size = new Size(1149, 583);
             ISIANARTIKEL.TabIndex = 0;
             ISIANARTIKEL.Text = "";
+            ISIANARTIKEL.TextChanged += ISIANARTIKEL_TextChanged;
             // 
             // IsiArtikel
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = SystemColors.ActiveCaption;
-            ClientSize = new Size(1129, 678);
+            BackColor = Color.FromArgb(94, 143, 51);
+            ClientSize = new Size(1389, 656);
             Controls.Add(ISIANARTIKEL);
+            Margin = new Padding(2);
             Name = "IsiArtikel";
             Text = "IsiArtikel";
             ResumeLayout(false);

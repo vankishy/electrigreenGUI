@@ -1,3 +1,4 @@
+using electrigreen.Models;
 using electrigreen.Window;
 
 namespace electrigreen
