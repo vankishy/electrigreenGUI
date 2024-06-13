@@ -18,6 +18,7 @@ namespace electrigreen.Core
 {
     public class AuthenticationMethod
     {
+        // Metode untuk melakukan registrasi pengguna baru
         public async void registerAction(Models.User createUser)
         {
             HttpClient httpClient = new HttpClient();
@@ -27,7 +28,7 @@ namespace electrigreen.Core
             if (resMessage.IsSuccessStatusCode)
             {
                 string resBodyRegister = await resMessage.Content.ReadAsStringAsync();
-                // Go to Login Form
+                // Arahkan ke Form Login jika registrasi berhasil
             }
             else if (resMessage.StatusCode == HttpStatusCode.BadRequest)
             {
@@ -52,6 +53,7 @@ namespace electrigreen.Core
             }
         }
 
+        // Metode untuk mendapatkan pengguna berdasarkan email secara asinkron
         public async Task<User> GetUserByEmailAsync(string email)
         {
             string apiUrl = $"api/Auth/{email}";
@@ -67,24 +69,27 @@ namespace electrigreen.Core
                 }
                 catch (System.Text.Json.JsonException ex)
                 {
-                    // Log error or handle it accordingly
-                    Console.WriteLine($"JSON deserialization error: {ex.Message}");
+                    // Log kesalahan atau tangani sesuai kebutuhan
+                    Console.WriteLine($"Kesalahan deserialisasi JSON: {ex.Message}");
                     return null;
                 }
             }
             return null;
         }
 
+        // Metode untuk memvalidasi pengguna berdasarkan email dan password secara asinkron
         public async Task<bool> ValidateUserAsync(string email, string password)
         {
             User user = await GetUserByEmailAsync(email);
             if (user != null)
             {
+                // Memverifikasi password menggunakan BCrypt
                 return BCrypt.Net.BCrypt.Verify(password, user.Password);
             }
             return false;
         }
 
+        // Metode untuk memvalidasi format email
         public bool IsValidEmail(string email)
         {
             string emailPattern = @"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$";
@@ -92,3 +97,4 @@ namespace electrigreen.Core
         }
     }
 }
+
