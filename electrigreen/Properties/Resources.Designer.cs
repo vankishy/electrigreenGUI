@@ -111,6 +111,16 @@ namespace electrigreen.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        /// </summary>
+        internal static System.Drawing.Icon light_bulb_icon_126685 {
+            get {
+                object obj = ResourceManager.GetObject("light_bulb_icon_126685", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap Lightbulb_Filament__Off__28 {

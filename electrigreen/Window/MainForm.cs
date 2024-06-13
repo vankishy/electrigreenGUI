@@ -50,7 +50,7 @@ namespace electrigreen.Window
         // Perangkat Button
         private void button3_Click(object sender, EventArgs e)
         {
-            loadform(new PerangkatForm());
+            loadform(new ShowElectronics());
             button2.Image = Properties.Resources.Home__Off__28;
             button3.Image = Properties.Resources.Lightbulb_Filament__On__28;
             button5.Image = Properties.Resources.Target_Arrow__Off__28;

@@ -1,0 +1,122 @@
+[
+  {
+    "config": {
+      "config": {
+        "nama": "Kentang",
+        "jenis": "Kompor Listrik",
+        "merk": "Irsih",
+        "voltase": 4,
+        "isSmarthome": true
+      }
+    },
+    "currentState": 1
+  },
+  {
+    "config": {
+      "config": {
+        "nama": "Buah",
+        "jenis": "Kompor Listrik",
+        "merk": "Apel",
+        "voltase": 660,
+        "isSmarthome": true
+      }
+    },
+    "currentState": 1
+  },
+  {
+    "config": {
+      "config": {
+        "nama": "Laptopku",
+        "jenis": "Laptop",
+        "merk": "Asus",
+        "voltase": 880,
+        "isSmarthome": true
+      }
+    },
+    "currentState": 1
+  },
+  {
+    "config": {
+      "config": {
+        "nama": "Jendela",
+        "jenis": "Pemanas Air",
+        "merk": "Windows",
+        "voltase": 9,
+        "isSmarthome": true
+      }
+    },
+    "currentState": 1
+  },
+  {
+    "config": {
+      "config": {
+        "nama": "Kulkas",
+        "jenis": "Laptop",
+        "merk": "Greenfields",
+        "voltase": 440,
+        "isSmarthome": true
+      }
+    },
+    "currentState": 1
+  },
+  {
+    "config": {
+      "config": {
+        "nama": "Obat",
+        "jenis": "Kompor Listrik",
+        "merk": "BukanObat4",
+        "voltase": 444,
+        "isSmarthome": false
+      }
+    },
+    "currentState": 1
+  },
+  {
+    "config": {
+      "config": {
+        "nama": "Samsung Smart Door",
+        "jenis": "Pintu",
+        "merk": "Samsung",
+        "voltase": 245,
+        "isSmarthome": true
+      }
+    },
+    "currentState": 1
+  },
+  {
+    "config": {
+      "config": {
+        "nama": "Gab",
+        "jenis": "Laptop",
+        "merk": "450",
+        "voltase": 432,
+        "isSmarthome": true
+      }
+    },
+    "currentState": 1
+  },
+  {
+    "config": {
+      "config": {
+        "nama": "Based",
+        "jenis": "On WHAT?",
+        "merk": "Cringe",
+        "voltase": 45,
+        "isSmarthome": true
+      }
+    },
+    "currentState": 1
+  },
+  {
+    "config": {
+      "config": {
+        "nama": "Kulkasku",
+        "jenis": "Kulkas",
+        "merk": "Samsung",
+        "voltase": 500,
+        "isSmarthome": true
+      }
+    },
+    "currentState": 1
+  }
+]
