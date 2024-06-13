@@ -1,4 +1,5 @@
-﻿using electrigreen.Core;
+﻿using electrigreen.ComponentControls;
+using electrigreen.Core;
 using electrigreen.Models;
 using System;
 using System.Collections.Generic;
@@ -45,14 +46,6 @@ namespace electrigreen.Window
                 return false;
             }
 
-            // Pola regex untuk memvalidasi password
-            // ^              : Awal string
-            // (?=.*[A-Z])    : Harus mengandung setidaknya satu huruf besar
-            // (?=.*[!@#$%^&*(),.?":{}|<>]) : Harus mengandung setidaknya satu simbol
-            // (?=.*[0-9])    : Harus mengandung setidaknya satu angka
-            // (?=.*[a-z])    : Harus mengandung setidaknya satu huruf kecil
-            // .{7,14}        : Harus memiliki panjang 7 hingga 14 karakter (karena karakter pertama sudah diperiksa secara terpisah)
-            // $              : Akhir string
             string pattern = @"^(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*(),.?""':{}|<>]).{7,14}$";
 
             // Periksa apakah karakter pertama adalah huruf besar

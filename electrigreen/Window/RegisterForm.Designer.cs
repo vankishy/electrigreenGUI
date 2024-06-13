@@ -38,6 +38,10 @@
             authTextBox3 = new ComponentControls.AuthTextBox();
             authTextBox4 = new ComponentControls.AuthTextBox();
             pictureBox1 = new PictureBox();
+            label1 = new Label();
+            label2 = new Label();
+            label3 = new Label();
+            label4 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -69,11 +73,10 @@
             label6.BackColor = Color.Transparent;
             label6.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label6.ForeColor = Color.Tomato;
-            label6.Location = new Point(50, 507);
+            label6.Location = new Point(49, 504);
             label6.Name = "label6";
-            label6.Size = new Size(51, 20);
+            label6.Size = new Size(0, 20);
             label6.TabIndex = 11;
-            label6.Text = "label6";
             // 
             // authTextBox1
             // 
@@ -83,15 +86,15 @@
             authTextBox1.BorderSize = 1.53D;
             authTextBox1.Cursor = Cursors.IBeam;
             authTextBox1.Font = new Font("Segoe UI", 9F);
-            authTextBox1.Location = new Point(50, 192);
+            authTextBox1.Location = new Point(50, 143);
             authTextBox1.Name = "authTextBox1";
             authTextBox1.PasswordChar = '\0';
             authTextBox1.Radius = 20;
             authTextBox1.Size = new Size(490, 50);
             authTextBox1.TabIndex = 12;
-            authTextBox1.Text = "Nama";
+            authTextBox1.Text = "John";
             authTextBox1.UseSystemPasswordChar = false;
-            authTextBox1.WaterMark = "Nama";
+            authTextBox1.WaterMark = "John";
             authTextBox1.WatermarkColor = Color.Gray;
             // 
             // authButton1
@@ -117,15 +120,15 @@
             authTextBox2.BorderSize = 1.53D;
             authTextBox2.Cursor = Cursors.IBeam;
             authTextBox2.Font = new Font("Segoe UI", 9F);
-            authTextBox2.Location = new Point(50, 275);
+            authTextBox2.Location = new Point(50, 245);
             authTextBox2.Name = "authTextBox2";
             authTextBox2.PasswordChar = '\0';
             authTextBox2.Radius = 20;
             authTextBox2.Size = new Size(490, 50);
             authTextBox2.TabIndex = 14;
-            authTextBox2.Text = "Email";
+            authTextBox2.Text = "contoh@xyz.com";
             authTextBox2.UseSystemPasswordChar = false;
-            authTextBox2.WaterMark = "Email";
+            authTextBox2.WaterMark = "contoh@xyz.com";
             authTextBox2.WatermarkColor = Color.Gray;
             // 
             // authTextBox3
@@ -136,9 +139,9 @@
             authTextBox3.BorderSize = 1.53D;
             authTextBox3.Cursor = Cursors.IBeam;
             authTextBox3.Font = new Font("Segoe UI", 9F);
-            authTextBox3.Location = new Point(50, 357);
+            authTextBox3.Location = new Point(50, 346);
             authTextBox3.Name = "authTextBox3";
-            authTextBox3.PasswordChar = '\0';
+            authTextBox3.PasswordChar = '●';
             authTextBox3.Radius = 20;
             authTextBox3.Size = new Size(490, 50);
             authTextBox3.TabIndex = 15;
@@ -155,32 +158,72 @@
             authTextBox4.BorderSize = 1.53D;
             authTextBox4.Cursor = Cursors.IBeam;
             authTextBox4.Font = new Font("Segoe UI", 9F);
-            authTextBox4.Location = new Point(50, 441);
+            authTextBox4.Location = new Point(50, 449);
             authTextBox4.Name = "authTextBox4";
-            authTextBox4.PasswordChar = '\0';
+            authTextBox4.PasswordChar = '●';
             authTextBox4.Radius = 20;
             authTextBox4.Size = new Size(490, 50);
             authTextBox4.TabIndex = 16;
-            authTextBox4.Text = "Konfirmasi Password";
+            authTextBox4.Text = "Password";
             authTextBox4.UseSystemPasswordChar = false;
-            authTextBox4.WaterMark = "Konfirmasi Password";
+            authTextBox4.WaterMark = "Password";
             authTextBox4.WatermarkColor = Color.Gray;
             // 
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.Logo;
-            pictureBox1.Location = new Point(161, 44);
+            pictureBox1.Location = new Point(161, 22);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(270, 62);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 17;
             pictureBox1.TabStop = false;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(49, 110);
+            label1.Name = "label1";
+            label1.Size = new Size(49, 20);
+            label1.TabIndex = 18;
+            label1.Text = "Nama";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(49, 212);
+            label2.Name = "label2";
+            label2.Size = new Size(46, 20);
+            label2.TabIndex = 19;
+            label2.Text = "Email";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(49, 314);
+            label3.Name = "label3";
+            label3.Size = new Size(70, 20);
+            label3.TabIndex = 20;
+            label3.Text = "Password";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(49, 417);
+            label4.Name = "label4";
+            label4.Size = new Size(145, 20);
+            label4.TabIndex = 21;
+            label4.Text = "Konfirmasi Password";
+            // 
             // RegisterForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(594, 710);
+            Controls.Add(label4);
+            Controls.Add(label3);
+            Controls.Add(label2);
+            Controls.Add(label1);
             Controls.Add(pictureBox1);
             Controls.Add(authTextBox4);
             Controls.Add(authTextBox3);
@@ -218,5 +261,9 @@
         private ComponentControls.AuthTextBox authTextBox3;
         private ComponentControls.AuthTextBox authTextBox4;
         private PictureBox pictureBox1;
+        private Label label1;
+        private Label label2;
+        private Label label3;
+        private Label label4;
     }
 }

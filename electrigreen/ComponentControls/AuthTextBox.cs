@@ -48,25 +48,27 @@ namespace electrigreen.ComponentControls
             textBox.KeyPress += new KeyPressEventHandler(textBox_KeyPress);
         }
 
-        private void textBox_KeyPress(object sender, KeyPressEventArgs e)
+        public void textBox_KeyPress(object sender, KeyPressEventArgs e)
         {
             base.OnKeyPress(e);
         }
 
-        private void textBox_Leave(object sender, EventArgs e)
+        public void textBox_Leave(object sender, EventArgs e)
         {
             if (Text == waterMark || Text == string.Empty)
             {
                 Text = waterMark;
                 textBox.ForeColor = waterMarkColor;
+                borderColor = Color.Black;
             }
             else
             {
                 textBox.ForeColor = mColor;
+                borderColor = Color.Black;
             }
         }
 
-        private void textBox_MouseClick(object sender, MouseEventArgs e)
+        public void textBox_MouseClick(object sender, MouseEventArgs e)
         {
             if (Text == waterMark || Text == string.Empty)
             {
@@ -75,7 +77,7 @@ namespace electrigreen.ComponentControls
             }
         }
 
-        private void textBox_MouseDoubleClick(object sender, MouseEventArgs e)
+        public void textBox_MouseDoubleClick(object sender, MouseEventArgs e)
         {
             if (e.Button == MouseButtons.Left)
             {
@@ -83,12 +85,12 @@ namespace electrigreen.ComponentControls
             }
         }
 
-        private void textBox_TextChanged(object sender, EventArgs e)
+        public void textBox_TextChanged(object sender, EventArgs e)
         {
             Text = textBox.Text;
         }
 
-        private void textBox_KeyDown(object sender, KeyEventArgs e)
+        public void textBox_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.Control && (e.KeyCode == Keys.A))
             {
@@ -107,7 +109,7 @@ namespace electrigreen.ComponentControls
         public bool UseSystemPasswordChar
         {
             get { return textBox.UseSystemPasswordChar; }
-            set { textBox.UseSystemPasswordChar = value; base.Invalidate(); }
+            set { textBox.UseSystemPasswordChar = value; base.Invalidate(); }          
         }
 
         public Color BackColor1
