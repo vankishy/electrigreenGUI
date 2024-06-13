@@ -23,6 +23,7 @@ namespace electrigreen.ComponentControls
         private GraphicsPath innerRect;
         public TextBox textBox = new TextBox();
 
+        // Constructor
         public AuthTextBox()
         {
             base.SetStyle(ControlStyles.SupportsTransparentBackColor, true);
@@ -188,6 +189,7 @@ namespace electrigreen.ComponentControls
                 Invalidate();
             }
         }
+
 
         //Methods
         protected override void OnFontChanged(EventArgs e)

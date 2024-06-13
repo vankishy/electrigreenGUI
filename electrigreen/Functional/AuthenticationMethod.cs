@@ -18,16 +18,16 @@ namespace electrigreen.Core
 {
     public class AuthenticationMethod
     {
-        public async void registerAction(Models.User createUser)
+        // Register Method
+        public async void RegisterAction(User createUser)
         {
             HttpClient httpClient = new HttpClient();
-            httpClient.BaseAddress = new Uri("http://localhost:5263");
+            httpClient.BaseAddress = new Uri("http://localhost:32768/swagger");
             HttpResponseMessage resMessage = await httpClient.PostAsJsonAsync("api/Auth/register", createUser);
 
             if (resMessage.IsSuccessStatusCode)
             {
                 string resBodyRegister = await resMessage.Content.ReadAsStringAsync();
-                // Go to Login Form
             }
             else if (resMessage.StatusCode == HttpStatusCode.BadRequest)
             {
@@ -52,11 +52,13 @@ namespace electrigreen.Core
             }
         }
 
+
+        // Get User to Local from API
         public async Task<User> GetUserByEmailAsync(string email)
         {
             string apiUrl = $"api/Auth/{email}";
 
-            HttpClient _httpClient = new HttpClient { BaseAddress = new Uri("http://localhost:5263") };
+            HttpClient _httpClient = new HttpClient { BaseAddress = new Uri("http://localhost:32768/swagger") };
             HttpResponseMessage response = await _httpClient.GetAsync(apiUrl);
             if (response.IsSuccessStatusCode)
             {
@@ -75,6 +77,7 @@ namespace electrigreen.Core
             return null;
         }
 
+        // Check login salting password
         public async Task<bool> ValidateUserAsync(string email, string password)
         {
             User user = await GetUserByEmailAsync(email);
@@ -85,6 +88,7 @@ namespace electrigreen.Core
             return false;
         }
 
+        // Check charcater for Email
         public bool IsValidEmail(string email)
         {
             string emailPattern = @"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$";
