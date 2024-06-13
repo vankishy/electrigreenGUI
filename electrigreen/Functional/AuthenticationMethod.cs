@@ -18,11 +18,11 @@ namespace electrigreen.Core
 {
     public class AuthenticationMethod
     {
-        // Register Method
+        // Metode untuk melakukan registrasi pengguna baru
         public async void RegisterAction(User createUser)
         {
             HttpClient httpClient = new HttpClient();
-            httpClient.BaseAddress = new Uri("http://localhost:32768/swagger");
+            httpClient.BaseAddress = new Uri("http://localhost:5263");
             HttpResponseMessage resMessage = await httpClient.PostAsJsonAsync("api/Auth/register", createUser);
 
             if (resMessage.IsSuccessStatusCode)
@@ -52,13 +52,12 @@ namespace electrigreen.Core
             }
         }
 
-
-        // Get User to Local from API
+        // Metode untuk mendapatkan pengguna berdasarkan email secara asinkron
         public async Task<User> GetUserByEmailAsync(string email)
         {
             string apiUrl = $"api/Auth/{email}";
 
-            HttpClient _httpClient = new HttpClient { BaseAddress = new Uri("http://localhost:32768/swagger") };
+            HttpClient _httpClient = new HttpClient { BaseAddress = new Uri("http://localhost:5263") };
             HttpResponseMessage response = await _httpClient.GetAsync(apiUrl);
             if (response.IsSuccessStatusCode)
             {
@@ -69,30 +68,59 @@ namespace electrigreen.Core
                 }
                 catch (System.Text.Json.JsonException ex)
                 {
-                    // Log error or handle it accordingly
-                    Console.WriteLine($"JSON deserialization error: {ex.Message}");
+                    // Log kesalahan atau tangani sesuai kebutuhan
+                    Console.WriteLine($"Kesalahan deserialisasi JSON: {ex.Message}");
                     return null;
                 }
             }
             return null;
         }
 
-        // Check login salting password
+        // Metode untuk memvalidasi pengguna berdasarkan email dan password secara asinkron
         public async Task<bool> ValidateUserAsync(string email, string password)
         {
             User user = await GetUserByEmailAsync(email);
             if (user != null)
             {
+                // Memverifikasi password menggunakan BCrypt
                 return BCrypt.Net.BCrypt.Verify(password, user.Password);
             }
             return false;
         }
 
-        // Check charcater for Email
+        // Metode untuk memvalidasi format email
         public bool IsValidEmail(string email)
         {
             string emailPattern = @"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$";
             return Regex.IsMatch(email, emailPattern);
+        }
+
+        public bool IsValidPassword(string password)
+        {
+            // Panjang password harus antara 8 hingga 15 karakter
+            if (password.Length < 8 || password.Length > 15)
+            {
+                return false;
+            }
+
+            // Pola regex untuk memvalidasi password
+            // ^              : Awal string
+            // (?=.*[A-Z])    : Harus mengandung setidaknya satu huruf besar
+            // (?=.*[!@#$%^&*(),.?":{}|<>]) : Harus mengandung setidaknya satu simbol
+            // (?=.*[0-9])    : Harus mengandung setidaknya satu angka
+            // (?=.*[a-z])    : Harus mengandung setidaknya satu huruf kecil
+            // .{7,14}        : Harus memiliki panjang 7 hingga 14 karakter (karena karakter pertama sudah diperiksa secara terpisah)
+            // $              : Akhir string
+            string pattern = @"^(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*(),.?""':{}|<>]).{7,14}$";
+
+            // Periksa apakah karakter pertama adalah huruf besar
+            if (!char.IsUpper(password[0]))
+            {
+                return false;
+            }
+
+            // Gunakan Regex untuk memvalidasi sisa password
+            return Regex.IsMatch(password.Substring(1), pattern);
         }
     }
 }

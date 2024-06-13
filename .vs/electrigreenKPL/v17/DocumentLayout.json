@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\SWIFT\\Documents\\electrigreen-KPL\\electrigreenKPL\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|c:\\users\\swift\\documents\\electrigreen-kpl\\electrigreenkpl\\electrigreen\\functional\\authenticationmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\functional\\authenticationmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|c:\\users\\swift\\documents\\electrigreen-kpl\\electrigreenkpl\\electrigreen\\window\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\window\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|c:\\users\\swift\\documents\\electrigreen-kpl\\electrigreenkpl\\electrigreen\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,12 +27,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AuthenticationMethod.cs",
+              "DocumentMoniker": "C:\\Users\\SWIFT\\Documents\\electrigreen-KPL\\electrigreenKPL\\electrigreen\\Functional\\AuthenticationMethod.cs",
+              "RelativeDocumentMoniker": "electrigreen\\Functional\\AuthenticationMethod.cs",
+              "ToolTip": "C:\\Users\\SWIFT\\Documents\\electrigreen-KPL\\electrigreenKPL\\electrigreen\\Functional\\AuthenticationMethod.cs",
+              "RelativeToolTip": "electrigreen\\Functional\\AuthenticationMethod.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAUwBQAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T12:43:10.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegisterForm.cs",
+              "DocumentMoniker": "C:\\Users\\SWIFT\\Documents\\electrigreen-KPL\\electrigreenKPL\\electrigreen\\Window\\RegisterForm.cs",
+              "RelativeDocumentMoniker": "electrigreen\\Window\\RegisterForm.cs",
+              "ToolTip": "C:\\Users\\SWIFT\\Documents\\electrigreen-KPL\\electrigreenKPL\\electrigreen\\Window\\RegisterForm.cs",
+              "RelativeToolTip": "electrigreen\\Window\\RegisterForm.cs",
+              "ViewState": "AQIAAHgAAAAAAAAAAAAiwIQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T12:42:55.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\SWIFT\\Documents\\electrigreen-KPL\\electrigreenKPL\\electrigreen\\Program.cs",
               "RelativeDocumentMoniker": "electrigreen\\Program.cs",
               "ToolTip": "C:\\Users\\SWIFT\\Documents\\electrigreen-KPL\\electrigreenKPL\\electrigreen\\Program.cs",
               "RelativeToolTip": "electrigreen\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-13T12:29:53.808Z",
               "EditorCaption": ""

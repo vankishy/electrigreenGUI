@@ -12,11 +12,13 @@ namespace electrigreenAPI.Controllers
         private const string filePath = "accRecord.json";
         private List<RegisterModel> _users;
 
+        // Constructor untuk menginisialisasi data pengguna
         public AuthController()
         {
             GetRecord();
         }
 
+        // Metode untuk membaca data pengguna dari file JSON
         private void GetRecord()
         {
             if (System.IO.File.Exists(filePath))
@@ -30,12 +32,14 @@ namespace electrigreenAPI.Controllers
             }
         }
 
+        // Metode untuk menyimpan data pengguna ke file JSON
         private void SaveRecord()
         {
             string json = JsonSerializer.Serialize(_users);
             System.IO.File.WriteAllText(filePath, json);
         }
 
+        // Endpoint untuk mendapatkan semua pengguna
         [HttpGet]
         public IActionResult GetUser()
         {
@@ -47,9 +51,11 @@ namespace electrigreenAPI.Controllers
             return Ok(_users);
         }
 
+        // Endpoint untuk mendaftarkan pengguna baru
         [HttpPost("register")]
         public IActionResult Register(RegisterModel model)
         {
+            // Validasi model
             if (model == null)
             {
                 throw new ArgumentNullException(nameof(model));
@@ -70,11 +76,13 @@ namespace electrigreenAPI.Controllers
                 throw new ArgumentException("Password harus diisi", nameof(model.password));
             }
 
+            // Cek apakah email sudah digunakan
             if (_users.Any(u => u.email == model.email))
             {
-                return Conflict("hasBeenUsed");
+                return Conflict("Email sudah digunakan");
             }
 
+            // Tambahkan pengguna baru dan simpan ke file
             _users.Add(model);
             SaveRecord();
 
@@ -85,15 +93,17 @@ namespace electrigreenAPI.Controllers
             return Ok("Akun terdaftar");
         }
 
+        // Endpoint untuk login pengguna
         [HttpPost("Login")]
-
         public IActionResult Login(LoginModel model)
         {
+            // Validasi model login
             if (model == null)
             {
                 return BadRequest("Invalid login request");
             }
 
+            // Cek kredensial pengguna
             var user = _users.FirstOrDefault(u => u.email.Equals(model.email, StringComparison.OrdinalIgnoreCase) && u.password == model.password);
 
             if (user != null)
@@ -106,14 +116,17 @@ namespace electrigreenAPI.Controllers
             }
         }
 
+        // Endpoint untuk mendapatkan pengguna berdasarkan email
         [HttpGet("{email}")]
         public IActionResult GetUserByEmail(string email)
         {
+            // Validasi email
             if (string.IsNullOrWhiteSpace(email))
             {
                 return BadRequest("Email harus diisi");
             }
 
+            // Cari pengguna berdasarkan email
             var user = _users.FirstOrDefault(u => u.email.Equals(email, StringComparison.OrdinalIgnoreCase));
 
             if (user != null)
@@ -126,6 +139,5 @@ namespace electrigreenAPI.Controllers
             }
         }
     }
-
-
 }
+
