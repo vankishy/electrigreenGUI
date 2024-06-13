@@ -20,6 +20,8 @@ namespace electrigreen.Window
             InitializeComponent();
             loadform(new HomeForm(user));
         }
+
+        // Method untuk memuat form
         public void loadform(object form)
         {
             if (this.mainPanel.Controls.Count > 0)
@@ -87,6 +89,13 @@ namespace electrigreen.Window
             button2.ForeColor = Color.FromArgb(0, 0, 0);
             button3.ForeColor = Color.FromArgb(0, 0, 0);
             button5.ForeColor = Color.FromArgb(0, 0, 0);
+        }
+
+        private void authButton1_Click(object sender, EventArgs e)
+        {
+            this.Visible = false;
+            LoginForm loginForm = new LoginForm();
+            loginForm.Show();
         }
     }
 }

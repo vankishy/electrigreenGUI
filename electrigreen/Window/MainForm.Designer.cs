@@ -263,6 +263,7 @@
             authButton1.TabIndex = 1;
             authButton1.Text = "Keluar";
             authButton1.UseVisualStyleBackColor = false;
+            authButton1.Click += authButton1_Click;
             // 
             // panel6
             // 
@@ -289,8 +290,11 @@
             Controls.Add(mainPanel);
             Controls.Add(flowLayoutPanel1);
             ForeColor = Color.FromArgb(94, 143, 51);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Icon = (Icon)resources.GetObject("$this.Icon");
+            MaximizeBox = false;
             Name = "MainForm";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Electrigreen";
             flowLayoutPanel1.ResumeLayout(false);
             panel1.ResumeLayout(false);
