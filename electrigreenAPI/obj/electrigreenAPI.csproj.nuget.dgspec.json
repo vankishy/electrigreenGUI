@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Tubes_KPL_Anjim\\electrigreenGUI\\electrigreenAPI\\electrigreenAPI.csproj": {}
+    "C:\\Users\\Open Library\\Documents\\electrigreenGUI\\electrigreenAPI\\electrigreenAPI.csproj": {}
   },
   "projects": {
-    "D:\\Tubes_KPL_Anjim\\electrigreenGUI\\electrigreenAPI\\electrigreenAPI.csproj": {
+    "C:\\Users\\Open Library\\Documents\\electrigreenGUI\\electrigreenAPI\\electrigreenAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Tubes_KPL_Anjim\\electrigreenGUI\\electrigreenAPI\\electrigreenAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Open Library\\Documents\\electrigreenGUI\\electrigreenAPI\\electrigreenAPI.csproj",
         "projectName": "electrigreenAPI",
-        "projectPath": "D:\\Tubes_KPL_Anjim\\electrigreenGUI\\electrigreenAPI\\electrigreenAPI.csproj",
-        "packagesPath": "C:\\Users\\RIZKY KUSUMA\\.nuget\\packages\\",
-        "outputPath": "D:\\Tubes_KPL_Anjim\\electrigreenGUI\\electrigreenAPI\\obj\\",
+        "projectPath": "C:\\Users\\Open Library\\Documents\\electrigreenGUI\\electrigreenAPI\\electrigreenAPI.csproj",
+        "packagesPath": "C:\\Users\\Open Library\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Open Library\\Documents\\electrigreenGUI\\electrigreenAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\RIZKY KUSUMA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Open Library\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -69,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
