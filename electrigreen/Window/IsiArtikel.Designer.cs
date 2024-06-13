@@ -28,7 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
+            ISIANARTIKEL = new RichTextBox();
             SuspendLayout();
+            // 
+            // ISIANARTIKEL
+            // 
+            ISIANARTIKEL.Location = new Point(117, 48);
+            ISIANARTIKEL.Name = "ISIANARTIKEL";
+            ISIANARTIKEL.Size = new Size(892, 596);
+            ISIANARTIKEL.TabIndex = 0;
+            ISIANARTIKEL.Text = "";
             // 
             // IsiArtikel
             // 
@@ -36,11 +45,14 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaption;
             ClientSize = new Size(1129, 678);
+            Controls.Add(ISIANARTIKEL);
             Name = "IsiArtikel";
             Text = "IsiArtikel";
             ResumeLayout(false);
         }
 
         #endregion
+
+        private RichTextBox ISIANARTIKEL;
     }
 }
