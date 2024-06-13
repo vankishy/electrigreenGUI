@@ -59,7 +59,7 @@ namespace electrigreen.Window
 
         private void richTextBox1_TextChanged(object sender, EventArgs e)
         {
-            // Tidak diperlukan penanganan di sini untuk perubahan teks.
+           
         }
     }
 }
