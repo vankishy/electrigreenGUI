@@ -238,7 +238,7 @@
             label16.AutoSize = true;
             label16.BackColor = Color.FromArgb(0, 0, 0, 0);
             label16.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label16.Location = new Point(243, 572);
+            label16.Location = new Point(239, 572);
             label16.Name = "label16";
             label16.Size = new Size(361, 41);
             label16.TabIndex = 0;
@@ -444,6 +444,7 @@
             Controls.Add(panelElectrigreen4);
             FormBorderStyle = FormBorderStyle.None;
             Name = "HomeForm";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "HomeForm";
             Load += HomeForm_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();

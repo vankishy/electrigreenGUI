@@ -39,13 +39,13 @@ namespace electrigreen.Window
 
             try
             {
-
                 bool isAuthenticated = await authen.ValidateUserAsync(email, password);
-
+                
                 if (isAuthenticated)
                 {
+                    User user = await authen.GetUserByEmailAsync(email);
                     this.Visible = false;
-                    MainForm mainForm = new MainForm();
+                    MainForm mainForm = new MainForm(user);
                     mainForm.Show();
                 }
                 else

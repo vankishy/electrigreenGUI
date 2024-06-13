@@ -1,4 +1,5 @@
-﻿using System;
+﻿using electrigreen.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,10 +13,12 @@ namespace electrigreen.Window
 {
     public partial class MainForm : Form
     {
-        public MainForm()
+        public User user;
+        public MainForm(User user)
         {
+            this.user = user;
             InitializeComponent();
-            loadform(new HomeForm());
+            loadform(new HomeForm(user));
         }
         public void loadform(object form)
         {
@@ -32,7 +35,7 @@ namespace electrigreen.Window
         // Home Button
         private void button2_Click(object sender, EventArgs e)
         {
-            loadform(new HomeForm());
+            loadform(new HomeForm(user));
             button2.Image = Properties.Resources.Home__On__28;
             button3.Image = Properties.Resources.Lightbulb_Filament__Off__28;
             button5.Image = Properties.Resources.Target_Arrow__Off__28;

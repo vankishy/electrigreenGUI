@@ -1,4 +1,5 @@
-﻿using System;
+﻿using electrigreen.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,9 +13,12 @@ namespace electrigreen.Window
 {
     public partial class HomeForm : Form
     {
-        public HomeForm()
+        public User user;
+        public HomeForm(User user)
         {
             InitializeComponent();
+            SapaUser(user);
+            this.user = user;
         }
 
         private void HomeForm_Load(object sender, EventArgs e)
@@ -31,6 +35,11 @@ namespace electrigreen.Window
             label20.BackColor = Color.Transparent;
             label21.BackColor = Color.Transparent;
             label22.BackColor = Color.Transparent;
+        }
+
+        private void SapaUser(User user)
+        {
+            label16.Text = ("Selamat datang, " + user.Nama);
         }
     }
 }
