@@ -1,11 +1,12 @@
-using electrigreen.Core;
-using electrigreen.Frame;
+
+using electrigreen.Window;
 using electrigreen.Models;
 using System.Diagnostics;
 using System.Net.Http.Json;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
+using electrigreen.Core;
 
-namespace LoginPage
+namespace electrigreen.Window
 {
     public partial class LoginForm : Form
     {
@@ -38,12 +39,14 @@ namespace LoginPage
 
             try
             {
-
                 bool isAuthenticated = await authen.ValidateUserAsync(email, password);
-
+                
                 if (isAuthenticated)
                 {
-                    MessageBox.Show("Email and Password are Correct!");
+                    User user = await authen.GetUserByEmailAsync(email);
+                    this.Visible = false;
+                    MainForm mainForm = new MainForm(user);
+                    mainForm.Show();
                 }
                 else
                 {
