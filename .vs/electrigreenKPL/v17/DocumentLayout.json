@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Open Library\\Documents\\electrigreenGUI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|c:\\users\\open library\\documents\\electrigreengui\\electrigreen\\window\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\window\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|c:\\users\\open library\\documents\\electrigreengui\\electrigreen\\window\\targetform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\window\\targetform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|c:\\users\\open library\\documents\\electrigreengui\\electrigreen\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|c:\\users\\open library\\documents\\electrigreengui\\electrigreen\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|c:\\users\\open library\\documents\\electrigreengui\\electrigreen\\functional\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\functional\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|c:\\users\\open library\\documents\\electrigreengui\\electrigreen\\window\\targetform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\window\\targetform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|c:\\users\\open library\\documents\\electrigreengui\\electrigreen\\window\\targetform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\window\\targetform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|c:\\users\\open library\\documents\\electrigreengui\\electrigreen\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|c:\\users\\open library\\documents\\electrigreengui\\electrigreen\\window\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\window\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,48 +30,61 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": ".gitignore",
-              "DocumentMoniker": "C:\\Users\\Open Library\\Documents\\electrigreenGUI\\electrigreen\\.gitignore",
-              "RelativeDocumentMoniker": "electrigreen\\.gitignore",
-              "ToolTip": "C:\\Users\\Open Library\\Documents\\electrigreenGUI\\electrigreen\\.gitignore",
-              "RelativeToolTip": "electrigreen\\.gitignore",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-06-07T11:39:14.824Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Register.cs",
-              "DocumentMoniker": "C:\\Users\\Open Library\\Documents\\electrigreenGUI\\electrigreen\\Functional\\Register.cs",
-              "RelativeDocumentMoniker": "electrigreen\\Functional\\Register.cs",
-              "ToolTip": "C:\\Users\\Open Library\\Documents\\electrigreenGUI\\electrigreen\\Functional\\Register.cs",
-              "RelativeToolTip": "electrigreen\\Functional\\Register.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "TargetForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Open Library\\Documents\\electrigreenGUI\\electrigreen\\Window\\TargetForm.Designer.cs",
+              "RelativeDocumentMoniker": "electrigreen\\Window\\TargetForm.Designer.cs",
+              "ToolTip": "C:\\Users\\Open Library\\Documents\\electrigreenGUI\\electrigreen\\Window\\TargetForm.Designer.cs",
+              "RelativeToolTip": "electrigreen\\Window\\TargetForm.Designer.cs",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAowFgAAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T11:38:55.063Z"
+              "WhenOpened": "2024-06-13T04:45:29.22Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RegisterForm.cs",
-              "DocumentMoniker": "C:\\Users\\Open Library\\Documents\\electrigreenGUI\\electrigreen\\Window\\RegisterForm.cs",
-              "RelativeDocumentMoniker": "electrigreen\\Window\\RegisterForm.cs",
-              "ToolTip": "C:\\Users\\Open Library\\Documents\\electrigreenGUI\\electrigreen\\Window\\RegisterForm.cs",
-              "RelativeToolTip": "electrigreen\\Window\\RegisterForm.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAnAAAA",
+              "DocumentIndex": 1,
+              "Title": "Resources.resx",
+              "DocumentMoniker": "C:\\Users\\Open Library\\Documents\\electrigreenGUI\\electrigreen\\Properties\\Resources.resx",
+              "RelativeDocumentMoniker": "electrigreen\\Properties\\Resources.resx",
+              "ToolTip": "C:\\Users\\Open Library\\Documents\\electrigreenGUI\\electrigreen\\Properties\\Resources.resx",
+              "RelativeToolTip": "electrigreen\\Properties\\Resources.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-06-13T04:25:20.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TargetForm.cs",
+              "DocumentMoniker": "C:\\Users\\Open Library\\Documents\\electrigreenGUI\\electrigreen\\Window\\TargetForm.cs",
+              "RelativeDocumentMoniker": "electrigreen\\Window\\TargetForm.cs",
+              "ToolTip": "C:\\Users\\Open Library\\Documents\\electrigreenGUI\\electrigreen\\Window\\TargetForm.cs",
+              "RelativeToolTip": "electrigreen\\Window\\TargetForm.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAswEkAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T10:53:05.623Z",
+              "WhenOpened": "2024-06-13T03:23:57.53Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "TargetForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Open Library\\Documents\\electrigreenGUI\\electrigreen\\Window\\TargetForm.cs",
+              "RelativeDocumentMoniker": "electrigreen\\Window\\TargetForm.cs",
+              "ToolTip": "C:\\Users\\Open Library\\Documents\\electrigreenGUI\\electrigreen\\Window\\TargetForm.cs [Design]",
+              "RelativeToolTip": "electrigreen\\Window\\TargetForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T03:23:45.577Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Open Library\\Documents\\electrigreenGUI\\electrigreen\\Program.cs",
               "RelativeDocumentMoniker": "electrigreen\\Program.cs",
@@ -79,19 +92,8 @@
               "RelativeToolTip": "electrigreen\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T10:52:37.99Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RegisterForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Open Library\\Documents\\electrigreenGUI\\electrigreen\\Window\\RegisterForm.cs",
-              "RelativeDocumentMoniker": "electrigreen\\Window\\RegisterForm.cs",
-              "ToolTip": "C:\\Users\\Open Library\\Documents\\electrigreenGUI\\electrigreen\\Window\\RegisterForm.cs [Design]",
-              "RelativeToolTip": "electrigreen\\Window\\RegisterForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T10:35:35.158Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-06-07T10:52:37.99Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("electrigreenAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8c3a17ceab6656b42350db90bcb32cef88a348a5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3d51cc8eb80f7631f86436c0510c7f7e71f57ae7")]
 [assembly: System.Reflection.AssemblyProductAttribute("electrigreenAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("electrigreenAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
