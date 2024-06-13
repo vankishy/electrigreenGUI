@@ -15,8 +15,7 @@
         public void ARTIKEL1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            IsiArtikel IA = new IsiArtikel();
-            IA.SetArticle(1);
+            IsiArtikel IA = new IsiArtikel(1);
             IA.ShowDialog();
             this.Show(); 
         }
@@ -24,8 +23,7 @@
         private void ARTIKEL2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            IsiArtikel IA = new IsiArtikel();
-            IA.SetArticle(2);
+            IsiArtikel IA = new IsiArtikel(2);
             IA.ShowDialog();
             this.Show(); 
         }
@@ -33,8 +31,7 @@
         private void ARTIKEL3_Click(object sender, EventArgs e)
         {
             this.Hide();
-            IsiArtikel IA = new IsiArtikel();
-            IA.SetArticle(3);
+            IsiArtikel IA = new IsiArtikel(3);
             IA.ShowDialog();
             this.Show(); 
         }
@@ -42,8 +39,7 @@
         private void ARTIKEL4_Click(object sender, EventArgs e)
         {
             this.Hide();
-            IsiArtikel IA = new IsiArtikel();
-            IA.SetArticle(4);
+            IsiArtikel IA = new IsiArtikel(4);
             IA.ShowDialog();
             this.Show(); 
         }

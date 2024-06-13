@@ -14,9 +14,11 @@ namespace electrigreen.Window
     {
         private int selectedArticle = 0;
 
-        public IsiArtikel()
+        public IsiArtikel(int articleNumber)
         {
             InitializeComponent();
+            SetArticle(articleNumber);
+            DisplayArticle();
         }
 
         public void SetArticle(int articleNumber)
