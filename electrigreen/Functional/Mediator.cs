@@ -69,10 +69,9 @@ namespace electrigreen.Functional
 
         public void SaveToJson(string filePath)
         {
+            //Method ini menyimpan data dari list Kelas Electronics kemudian mengwrite data tersebut keadalam file JSON
             try
             {
-                MessageBox.Show(filePath, "Input Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-
                 string json = JsonConvert.SerializeObject(electronicsList, Formatting.Indented);
                 File.WriteAllText(filePath, json);
             }

@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "D:\\C#\\electrigreenGUI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|D:\\C#\\electrigreenGUI\\electrigreen\\window\\addelectronics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|D:\\C#\\electrigreenGUI\\electrigreen\\functional\\mediator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\functional\\mediator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|d:\\c#\\electrigreengui\\electrigreen\\window\\addelectronics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\window\\addelectronics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,24 +15,20 @@
       "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\window\\addelectronics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|D:\\C#\\electrigreenGUI\\electrigreen\\window\\showelectronics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\window\\showelectronics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|D:\\C#\\electrigreenGUI\\electrigreen\\window\\showelectronics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\window\\showelectronics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|D:\\C#\\electrigreenGUI\\electrigreen\\functional\\mediator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\functional\\mediator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|D:\\C#\\electrigreenGUI\\electrigreen\\functional\\electronics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\functional\\electronics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|D:\\C#\\electrigreenGUI\\electrigreen\\window\\showelectronics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\window\\showelectronics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|D:\\C#\\electrigreenGUI\\electrigreen\\window\\registerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\window\\registerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|D:\\C#\\electrigreenGUI\\electrigreen\\functional\\electronics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5687401E-08DF-4735-8E02-416363E6AC9A}|electrigreen\\electrigreen.csproj|solutionrelative:electrigreen\\functional\\electronics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,11 +38,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "Electronics.cs",
               "DocumentMoniker": "D:\\C#\\electrigreenGUI\\electrigreen\\Functional\\Electronics.cs",
               "RelativeDocumentMoniker": "electrigreen\\Functional\\Electronics.cs",
@@ -51,62 +51,38 @@
               "ViewState": "AQIAAGUAAAAAAAAAAAAUwBEAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-12T11:25:23.976Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Mediator.cs",
-              "DocumentMoniker": "D:\\C#\\electrigreenGUI\\electrigreen\\Functional\\Mediator.cs",
-              "RelativeDocumentMoniker": "electrigreen\\Functional\\Mediator.cs",
-              "ToolTip": "D:\\C#\\electrigreenGUI\\electrigreen\\Functional\\Mediator.cs",
-              "RelativeToolTip": "electrigreen\\Functional\\Mediator.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAIwEMAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T11:25:23.976Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ShowElectronics.cs",
-              "DocumentMoniker": "D:\\C#\\electrigreenGUI\\electrigreen\\Window\\ShowElectronics.cs",
-              "RelativeDocumentMoniker": "electrigreen\\Window\\ShowElectronics.cs",
-              "ToolTip": "D:\\C#\\electrigreenGUI\\electrigreen\\Window\\ShowElectronics.cs",
-              "RelativeToolTip": "electrigreen\\Window\\ShowElectronics.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAgwDcAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T13:09:07.625Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AddElectronics.cs",
               "DocumentMoniker": "D:\\C#\\electrigreenGUI\\electrigreen\\Window\\AddElectronics.cs",
               "RelativeDocumentMoniker": "electrigreen\\Window\\AddElectronics.cs",
               "ToolTip": "D:\\C#\\electrigreenGUI\\electrigreen\\Window\\AddElectronics.cs",
               "RelativeToolTip": "electrigreen\\Window\\AddElectronics.cs",
-              "ViewState": "AQIAAFcAAAAAAAAAAAAQwGoAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-12T11:25:23.977Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ShowElectronics.cs [Design]",
-              "DocumentMoniker": "D:\\C#\\electrigreenGUI\\electrigreen\\Window\\ShowElectronics.cs",
-              "RelativeDocumentMoniker": "electrigreen\\Window\\ShowElectronics.cs",
-              "ToolTip": "D:\\C#\\electrigreenGUI\\electrigreen\\Window\\ShowElectronics.cs [Design]",
-              "RelativeToolTip": "electrigreen\\Window\\ShowElectronics.cs [Design]",
+              "DocumentIndex": 0,
+              "Title": "Mediator.cs",
+              "DocumentMoniker": "D:\\C#\\electrigreenGUI\\electrigreen\\Functional\\Mediator.cs",
+              "RelativeDocumentMoniker": "electrigreen\\Functional\\Mediator.cs",
+              "ToolTip": "D:\\C#\\electrigreenGUI\\electrigreen\\Functional\\Mediator.cs",
+              "RelativeToolTip": "electrigreen\\Functional\\Mediator.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAIwEkAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T11:50:38.671Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-06-12T11:25:23.976Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "AddElectronics.cs [Design]",
               "DocumentMoniker": "D:\\C#\\electrigreenGUI\\electrigreen\\Window\\AddElectronics.cs",
               "RelativeDocumentMoniker": "electrigreen\\Window\\AddElectronics.cs",
@@ -118,7 +94,32 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ShowElectronics.cs",
+              "DocumentMoniker": "D:\\C#\\electrigreenGUI\\electrigreen\\Window\\ShowElectronics.cs",
+              "RelativeDocumentMoniker": "electrigreen\\Window\\ShowElectronics.cs",
+              "ToolTip": "D:\\C#\\electrigreenGUI\\electrigreen\\Window\\ShowElectronics.cs",
+              "RelativeToolTip": "electrigreen\\Window\\ShowElectronics.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T13:09:07.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "ShowElectronics.cs [Design]",
+              "DocumentMoniker": "D:\\C#\\electrigreenGUI\\electrigreen\\Window\\ShowElectronics.cs",
+              "RelativeDocumentMoniker": "electrigreen\\Window\\ShowElectronics.cs",
+              "ToolTip": "D:\\C#\\electrigreenGUI\\electrigreen\\Window\\ShowElectronics.cs [Design]",
+              "RelativeToolTip": "electrigreen\\Window\\ShowElectronics.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T11:50:38.671Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "RegisterForm.Designer.cs",
               "DocumentMoniker": "D:\\C#\\electrigreenGUI\\electrigreen\\Window\\RegisterForm.Designer.cs",
               "RelativeDocumentMoniker": "electrigreen\\Window\\RegisterForm.Designer.cs",
