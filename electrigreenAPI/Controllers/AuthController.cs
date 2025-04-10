@@ -17,6 +17,7 @@ namespace electrigreenAPI.Controllers
             GetRecord();
         }
 
+        // Add comment sikit2 saja
         private void GetRecord()
         {
             if (System.IO.File.Exists(filePath))
