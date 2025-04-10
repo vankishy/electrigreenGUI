@@ -18,6 +18,7 @@ namespace electrigreenAPI.Controllers
             GetRecord();
         }
 
+        // Add comment sikit2 saja
         // Metode untuk membaca data pengguna dari file JSON
         private void GetRecord()
         {
